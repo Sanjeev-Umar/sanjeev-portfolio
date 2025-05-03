@@ -1,0 +1,139 @@
+{
+  "resume": {
+    "intro": "Bonjour, je suis Sanjeev",
+    "name": "Sanjeev Umar",
+    "info": {
+      "click": "Cliquez pour plus d'infos"
+    },
+    "designation": "Développeur Full Stack",
+    "intro_text": "Je suis un développeur Full Stack passionné par la création d'applications web évolutives et performantes qui résolvent de vrais problèmes d'entreprise. Au cours des 3 dernières années et plus, j'ai affiné mon expertise sur l'ensemble de la pile de développement, en me spécialisant dans les écosystèmes JavaScript.",
+    "skills_title": "Compétences",
+    "languages_title": "Langues",
+    "title": "CV",
+    "download": "Télécharger le CV",
+    "viewOnline": "Voir le CV en ligne",
+    "experience": "Expérience",
+    "education": "Formation",
+    "skills": "Compétences",
+    "languages": "Langues",
+    "lastUpdated": "Dernière mise à jour",
+    "positions": {
+      "uvh": {
+        "title": "Développeur de Logiciels",
+        "company": "UVH Tech (Veefin)",
+        "duration": "07/2024 - Présent",
+        "location": "Mumbai, MH, Inde",
+        "responsibilities": [
+          "Implémentation du framework Remix avec Router v7, améliorant la navigation côté client et les performances de l'application de 18%",
+          "Développement de fonctionnalités de streaming de données réduisant les temps de chargement de 22%",
+          "Conception d'un système de traduction multilingue augmentant la portée du marché de 25%",
+          "Rédaction de tests Vitest atteignant 94% de couverture de code, réduisant les bugs en production de 30%",
+          "Construction d'un système d'authentification sécurisé avec RBAC, améliorant la sécurité de l'application de 20%",
+          "Développement d'un module de gestion des utilisateurs évolutif avec permissions, augmentant l'efficacité administrative de 16%"
+        ]
+      },
+      "paktolus": {
+        "title": "Développeur de Logiciels",
+        "company": "Paktolus",
+        "duration": "12/2022 - 12/2023",
+        "location": "Mumbai, MH, Inde",
+        "responsibilities": [
+          "Optimisation du long polling dans le générateur de devis pour une amélioration des performances de 10%",
+          "Conception d'une infrastructure de microservices pour la séparation des fonctionnalités, améliorant la modularité de 9%",
+          "Création d'un package interne pour la communication avec les services externes réduisant l'encombrement du code de 20%",
+          "Construction d'un service de communication unifié, facilitant les intégrations externes de 15%",
+          "Collaboration avec plus de 5 partenaires pour standardiser les structures de devis, réduisant le temps d'intégration de 15% et améliorant la précision des données de 18%",
+          "Intégration de l'autocomplétion de localisation Google, améliorant l'UX de 7%",
+          "Développement d'un service d'information automobile récupérant des données externes avec une amélioration de précision de 9%"
+        ]
+      },
+      "bysness": {
+        "title": "Développeur de Logiciels",
+        "company": "Bysness",
+        "duration": "08/2022 - 11/2022",
+        "location": "Mumbai, MH, Inde",
+        "responsibilities": [
+          "Construction d'un tableau de bord dynamique dans l'outil de migration de données améliorant l'accès aux informations de 22%",
+          "Création d'un indicateur de progression de migration, améliorant le retour visuel de 9%",
+          "Développement d'un éditeur personnalisé pour les documents texte, améliorant la robustesse de 12%",
+          "Implémentation d'une fonction de recherche de transcription réduisant le temps de récupération d'informations de 20% et augmentant la satisfaction des utilisateurs de 22%"
+        ]
+      },
+      "moofwd": {
+        "title": "Ingénieur Produit",
+        "company": "Moofwd Technologies",
+        "duration": "06/2022 - 08/2022",
+        "location": "Mumbai, MH, Inde",
+        "responsibilities": [
+          "Ajout d'événements et de notifications dans le portail scolaire via Strapi CMS, entraînant une croissance des revenus de 9%",
+          "Développement d'un plugin personnalisé pour 2 besoins spécifiques de clients, augmentant l'adoption de 15%"
+        ]
+      },
+      "constbase": {
+        "title": "Développeur de Logiciels",
+        "company": "Constbase",
+        "duration": "12/2021 - 06/2022",
+        "location": "Mumbai, MH, Inde",
+        "responsibilities": [
+          "Construction d'un formulaire dynamique pour le système d'alerte crypto en utilisant React, Redux, Node.js améliorant la précision de 30%",
+          "Ajout de graphiques dynamiques en direct augmentant l'interactivité de 26%",
+          "Optimisation de la fonction de création de CV dans le portail d'emploi réduisant le temps de génération de 20%"
+        ]
+      },
+      "freelancer": {
+        "title": "Développeur Web",
+        "company": "Freelance",
+        "duration": "01/2021 - 11/2021",
+        "location": "Mumbai, MH, Inde",
+        "responsibilities": [
+          "Livraison de multiples projets clients dans 4 secteurs avec 100% de livraison à temps et 95% de satisfaction",
+          "Gestion du cycle de vie complet des projets, réduisant le temps de développement de 18% et les problèmes post-lancement de 25%",
+          "Spécialisation dans les solutions web haute performance qui ont amélioré la conversion de 12% et réduit le temps de chargement de 15%"
+        ]
+      }
+    },
+    "siteInfo": {
+      "welcome": "🚀 Bienvenue à Bord !",
+      "centralPlanet": {
+        "title": "🌍 Planète Centrale",
+        "description": "Cette planète brillante au centre ? Oui, c'est moi ! Cliquez dessus pour plonger dans mon histoire et découvrir qui je suis."
+      },
+      "experienceRings": {
+        "title": "💫 Anneaux d'Expérience",
+        "description": "En orbite autour de moi se trouvent les points forts de mon parcours professionnel. Survolez un anneau pour jeter un coup d'œil — et cliquez dessus pour une exploration approfondie !"
+      },
+      "languageAsteroid": {
+        "title": "🪐 Astéroïde des Langues",
+        "description": "Flottant à proximité se trouve un astéroïde pratique qui vous permet de changer de langue. Choisissez votre préférée et profitez du voyage dans votre langue maternelle !"
+      },
+      "contactRocket": {
+        "title": "🚀 Fusée de Contact",
+        "description": "Prêt pour le décollage ? Cliquez sur la fusée pour m'envoyer un message — j'adorerais avoir de vos nouvelles !"
+      },
+      "exploreButton": "C'est compris, explorons !"
+    }
+  },
+  "contact": {
+    "title": "Me contacter",
+    "name": "Nom",
+    "email": "Email",
+    "message": "Message",
+    "namePlaceholder": "Votre nom",
+    "emailPlaceholder": "votre.email@exemple.com",
+    "messagePlaceholder": "Votre message ici...",
+    "send": "Envoyer le message",
+    "sending": "Envoi en cours...",
+    "success": "Message envoyé avec succès ! Le formulaire se fermera sous peu.",
+    "error": "Échec de l'envoi du message. Veuillez réessayer.",
+    "errors": {
+      "nameRequired": "Le nom est requis",
+      "emailRequired": "L'email est requis",
+      "emailInvalid": "Veuillez entrer un email valide",
+      "messageRequired": "Le message est requis"
+    }
+  },
+  "social": {
+    "github": "GitHub",
+    "linkedin": "LinkedIn"
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "resume": {
+    "intro": "Hi, I am Sanjeev",
+    "name": "Sanjeev Umar",
+    "info": {
+      "click": "Click for info"
+    },
+    "designation": "Full Stack Developer",
+    "intro_text": "I'm a Full Stack Developer with a passion for building scalable, high-performance web applications that solve real business problems. Over the past 3+ years, I've honed my expertise across the entire development stack, specializing in JavaScript ecosystems.",
+    "skills_title": "Skills",
+    "languages_title": "Languages",
+    "title": "Resume",
+    "download": "Download Resume",
+    "viewOnline": "View Resume Online",
+    "experience": "Experience",
+    "education": "Education",
+    "skills": "Skills",
+    "languages": "Languages",
+    "lastUpdated": "Last Updated",
+    "positions": {
+      "uvh": {
+        "title": "Software Developer",
+        "company": "UVH Tech (Veefin)",
+        "duration": "07/2024 - Present",
+        "location": "Mumbai, MH, IN",
+        "responsibilities": [
+          "Implemented Remix framework with Router v7, improving client-side navigation and app performance by 18%",
+          "Developed data streaming features that reduced loading times by 22%",
+          "Architected a multi-language translation system increasing market reach by 25%",
+          "Wrote Vitest test cases achieving 94% code coverage, reducing production bugs by 30%",
+          "Built secure auth system with RBAC, improving app security by 20%",
+          "Developed scalable user management module with permissions, enhancing admin efficiency by 16%"
+        ]
+      },
+      "paktolus": {
+        "title": "Software Developer",
+        "company": "Paktolus",
+        "duration": "12/2022 - 12/2023",
+        "location": "Mumbai, MH, IN",
+        "responsibilities": [
+          "Optimized long polling in quote generator for a 10% performance boost",
+          "Architected microservice infrastructure for feature separation, improving modularity by 9%",
+          "Created internal package for external service communication reducing code clutter by 20%",
+          "Built unified communication service, easing external integrations by 15%",
+          "Worked with 5+ partners to standardize quote structures, cutting integration time by 15% and improving data accuracy by 18%",
+          "Integrated Google location autocomplete, improving UX by 7%",
+          "Developed car info service fetching external data with 9% boost in accuracy"
+        ]
+      },
+      "bysness": {
+        "title": "Software Developer",
+        "company": "Bysness",
+        "duration": "08/2022 - 11/2022",
+        "location": "Mumbai, MH, IN",
+        "responsibilities": [
+          "Built dynamic dashboard in data migration tool improving info access by 22%",
+          "Created migration progress indicator, enhancing visual feedback by 9%",
+          "Developed custom editor for text documents, improving robustness by 12%",
+          "Implemented transcript search feature reducing info retrieval time by 20% and increasing user satisfaction by 22%"
+        ]
+      },
+      "moofwd": {
+        "title": "Product Engineer",
+        "company": "Moofwd Technologies",
+        "duration": "06/2022 - 08/2022",
+        "location": "Mumbai, MH, IN",
+        "responsibilities": [
+          "Added events and notifications in school portal via Strapi CMS, resulting in 9% revenue growth",
+          "Developed custom plugin for 2 client-specific needs, increasing adoption by 15%"
+        ]
+      },
+      "constbase": {
+        "title": "Software Developer",
+        "company": "Constbase",
+        "duration": "12/2021 - 06/2022",
+        "location": "Mumbai, MH, IN",
+        "responsibilities": [
+          "Built dynamic form for crypto alert system using React, Redux, Node.js improving accuracy by 30%",
+          "Added live dynamic graphs increasing interactivity by 26%",
+          "Optimized resume-building feature in job portal reducing generation time by 20%"
+        ]
+      },
+      "freelancer": {
+        "title": "Web Developer",
+        "company": "Freelancer",
+        "duration": "01/2021 - 11/2021",
+        "location": "Mumbai, MH, IN",
+        "responsibilities": [
+          "Delivered multiple client projects across 4 industries with 100% on-time delivery and 95% satisfaction",
+          "Managed full project lifecycle, reducing dev time by 18% and post-launch issues by 25%",
+          "Specialized in high-performance web solutions that improved conversion by 12% and cut load time by 15%"
+        ]
+      }
+    },
+    "educationDetails": {
+      "degree": "Bachelor of Science",
+      "major": "Information Technology",
+      "university": "Mumbai University",
+      "duration": "06/2015 - 06/2018",
+      "location": "Mumbai, MH, IN"
+    },
+    "skillSet": [
+      "JavaScript",
+      "TypeScript",
+      "Node.js",
+      "Express.js",
+      "React",
+      "Next.js",
+      "Redux",
+      "Remix.js",
+      "MongoDB",
+      "Git",
+      "Microservices",
+      "Frontend",
+      "Backend",
+      "Java",
+      "Game Development"
+    ],
+    "languageProficiency": ["English", "Hindi", "Marathi"],
+    "siteInfo": {
+      "welcome": "🚀 Welcome Aboard!",
+      "centralPlanet": {
+        "title": "🌍 Central Planet",
+        "description": "That bright, glowing planet in the center? Yep, that's me! Click it to dive into my story and see what I'm all about."
+      },
+      "experienceRings": {
+        "title": "💫 Experience Rings",
+        "description": "Orbiting around me are the highlights of my career journey. Hover over a ring to sneak a peek — and click it to go on a deep dive!"
+      },
+      "languageAsteroid": {
+        "title": "🪐 Language Asteroid",
+        "description": "Floating nearby is a handy asteroid that lets you switch languages. Pick your favorite and enjoy the ride in your native tongue!"
+      },
+      "contactRocket": {
+        "title": "🚀 Contact Rocket",
+        "description": "Ready for liftoff? Hit the rocket to send me a message — I'd love to hear from you!"
+      },
+      "exploreButton": "Got it, let's explore!"
+    }
+  },
+  "contact": {
+    "title": "Contact Me",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "namePlaceholder": "Your Name",
+    "emailPlaceholder": "your.email@example.com",
+    "messagePlaceholder": "Your message here...",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "success": "Message sent successfully! The form will close shortly.",
+    "error": "Failed to send message. Please try again.",
+    "errors": {
+      "nameRequired": "Name is required",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Please enter a valid email",
+      "messageRequired": "Message is required"
+    }
+  },
+  "social": {
+    "github": "GitHub",
+    "linkedin": "LinkedIn"
+  }
+}

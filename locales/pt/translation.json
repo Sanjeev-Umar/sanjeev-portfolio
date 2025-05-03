@@ -1,0 +1,139 @@
+{
+  "resume": {
+    "intro": "Olá, eu sou Sanjeev",
+    "name": "Sanjeev Umar",
+    "info": {
+      "click": "Clique para informações"
+    },
+    "designation": "Desenvolvedor Full Stack",
+    "intro_text": "Sou um Desenvolvedor Full Stack com paixão por construir aplicações web escaláveis e de alto desempenho que resolvem problemas reais de negócios. Nos últimos 3+ anos, aprimorei minha expertise em toda a pilha de desenvolvimento, especializando-me em ecossistemas JavaScript.",
+    "skills_title": "Competências",
+    "languages_title": "Idiomas",
+    "title": "Currículo",
+    "download": "Baixar Currículo",
+    "viewOnline": "Ver Currículo Online",
+    "experience": "Experiência",
+    "education": "Educação",
+    "skills": "Competências",
+    "languages": "Idiomas",
+    "lastUpdated": "Última Atualização",
+    "positions": {
+      "uvh": {
+        "title": "Desenvolvedor de Software",
+        "company": "UVH Tech (Veefin)",
+        "duration": "07/2024 - Presente",
+        "location": "Mumbai, MH, Índia",
+        "responsibilities": [
+          "Implementação do framework Remix com Router v7, melhorando a navegação do lado do cliente e o desempenho do aplicativo em 18%",
+          "Desenvolvimento de recursos de streaming de dados que reduziram os tempos de carregamento em 22%",
+          "Arquitetura de um sistema de tradução multilíngue aumentando o alcance de mercado em 25%",
+          "Escrita de casos de teste Vitest alcançando 94% de cobertura de código, reduzindo bugs de produção em 30%",
+          "Construção de sistema de autenticação seguro com RBAC, melhorando a segurança do aplicativo em 20%",
+          "Desenvolvimento de módulo de gerenciamento de usuários escalável com permissões, aumentando a eficiência administrativa em 16%"
+        ]
+      },
+      "paktolus": {
+        "title": "Desenvolvedor de Software",
+        "company": "Paktolus",
+        "duration": "12/2022 - 12/2023",
+        "location": "Mumbai, MH, Índia",
+        "responsibilities": [
+          "Otimização de long polling no gerador de cotações para um aumento de desempenho de 10%",
+          "Arquitetura de infraestrutura de microsserviços para separação de recursos, melhorando a modularidade em 9%",
+          "Criação de pacote interno para comunicação com serviços externos reduzindo a desordem de código em 20%",
+          "Construção de serviço de comunicação unificado, facilitando integrações externas em 15%",
+          "Trabalho com mais de 5 parceiros para padronizar estruturas de cotação, reduzindo o tempo de integração em 15% e melhorando a precisão dos dados em 18%",
+          "Integração do preenchimento automático de localização do Google, melhorando a UX em 7%",
+          "Desenvolvimento de serviço de informações de veículos obtendo dados externos com aumento de precisão de 9%"
+        ]
+      },
+      "bysness": {
+        "title": "Desenvolvedor de Software",
+        "company": "Bysness",
+        "duration": "08/2022 - 11/2022",
+        "location": "Mumbai, MH, Índia",
+        "responsibilities": [
+          "Construção de painel dinâmico em ferramenta de migração de dados melhorando o acesso à informação em 22%",
+          "Criação de indicador de progresso de migração, melhorando o feedback visual em 9%",
+          "Desenvolvimento de editor personalizado para documentos de texto, melhorando a robustez em 12%",
+          "Implementação de recurso de busca de transcrição reduzindo o tempo de recuperação de informações em 20% e aumentando a satisfação do usuário em 22%"
+        ]
+      },
+      "moofwd": {
+        "title": "Engenheiro de Produto",
+        "company": "Moofwd Technologies",
+        "duration": "06/2022 - 08/2022",
+        "location": "Mumbai, MH, Índia",
+        "responsibilities": [
+          "Adição de eventos e notificações no portal escolar via Strapi CMS, resultando em 9% de crescimento de receita",
+          "Desenvolvimento de plugin personalizado para 2 necessidades específicas de clientes, aumentando a adoção em 15%"
+        ]
+      },
+      "constbase": {
+        "title": "Desenvolvedor de Software",
+        "company": "Constbase",
+        "duration": "12/2021 - 06/2022",
+        "location": "Mumbai, MH, Índia",
+        "responsibilities": [
+          "Construção de formulário dinâmico para sistema de alerta de criptomoedas usando React, Redux, Node.js melhorando a precisão em 30%",
+          "Adição de gráficos dinâmicos ao vivo aumentando a interatividade em 26%",
+          "Otimização do recurso de construção de currículo no portal de empregos reduzindo o tempo de geração em 20%"
+        ]
+      },
+      "freelancer": {
+        "title": "Desenvolvedor Web",
+        "company": "Freelancer",
+        "duration": "01/2021 - 11/2021",
+        "location": "Mumbai, MH, Índia",
+        "responsibilities": [
+          "Entrega de múltiplos projetos de clientes em 4 indústrias com 100% de entrega pontual e 95% de satisfação",
+          "Gerenciamento do ciclo de vida completo do projeto, reduzindo o tempo de desenvolvimento em 18% e problemas pós-lançamento em 25%",
+          "Especialização em soluções web de alto desempenho que melhoraram a conversão em 12% e reduziram o tempo de carregamento em 15%"
+        ]
+      }
+    },
+    "siteInfo": {
+      "welcome": "🚀 Bem-vindo a Bordo!",
+      "centralPlanet": {
+        "title": "🌍 Planeta Central",
+        "description": "Aquele planeta brilhante no centro? Sim, sou eu! Clique nele para mergulhar na minha história e ver do que se trata."
+      },
+      "experienceRings": {
+        "title": "💫 Anéis de Experiência",
+        "description": "Orbitando ao meu redor estão os destaques da minha jornada profissional. Passe o mouse sobre um anel para espiar — e clique nele para um mergulho profundo!"
+      },
+      "languageAsteroid": {
+        "title": "🪐 Asteroide de Idiomas",
+        "description": "Flutuando nas proximidades está um prático asteroide que permite mudar de idioma. Escolha seu favorito e aproveite a viagem no seu idioma nativo!"
+      },
+      "contactRocket": {
+        "title": "🚀 Foguete de Contato",
+        "description": "Pronto para decolar? Clique no foguete para me enviar uma mensagem — adoraria ouvir de você!"
+      },
+      "exploreButton": "Entendi, vamos explorar!"
+    }
+  },
+  "contact": {
+    "title": "Contate-me",
+    "name": "Nome",
+    "email": "Email",
+    "message": "Mensagem",
+    "namePlaceholder": "Seu Nome",
+    "emailPlaceholder": "seu.email@exemplo.com",
+    "messagePlaceholder": "Sua mensagem aqui...",
+    "send": "Enviar Mensagem",
+    "sending": "Enviando...",
+    "success": "Mensagem enviada com sucesso! O formulário fechará em breve.",
+    "error": "Falha ao enviar mensagem. Por favor, tente novamente.",
+    "errors": {
+      "nameRequired": "Nome é obrigatório",
+      "emailRequired": "Email é obrigatório",
+      "emailInvalid": "Por favor, insira um email válido",
+      "messageRequired": "Mensagem é obrigatória"
+    }
+  },
+  "social": {
+    "github": "GitHub",
+    "linkedin": "LinkedIn"
+  }
+}
