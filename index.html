@@ -3,14 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sanjeev Umar | Full Stack Developer Portfolio</title>
+
+    <!-- SEO Meta Tags -->
     <meta
       name="description"
-      content="Sanjeev Umar - Creative frontend developer portfolio with 3D space theme. Built with React Three Fiber."
+      content="Sanjeev Umar - Full stack developer portfolio with interactive 3D space theme. Explore my professional journey through an immersive experience built with React Three Fiber."
     />
-    <meta property="og:title" content="Sanjeev Umar - Developer Portfolio" />
+    <meta name="author" content="Sanjeev Umar" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://sanjeev-umar.github.io/sanjeev-portfolio/" />
+
+    <!-- Hreflang for multilingual SEO -->
+    <link rel="alternate" hreflang="en" href="https://sanjeev-umar.github.io/sanjeev-portfolio/?lng=en" />
+    <link rel="alternate" hreflang="ja" href="https://sanjeev-umar.github.io/sanjeev-portfolio/?lng=ja" />
+    <link rel="alternate" hreflang="de" href="https://sanjeev-umar.github.io/sanjeev-portfolio/?lng=de" />
+    <link rel="alternate" hreflang="zh" href="https://sanjeev-umar.github.io/sanjeev-portfolio/?lng=zh" />
+    <link rel="alternate" hreflang="ko" href="https://sanjeev-umar.github.io/sanjeev-portfolio/?lng=ko" />
+    <link rel="alternate" hreflang="fr" href="https://sanjeev-umar.github.io/sanjeev-portfolio/?lng=fr" />
+    <link rel="alternate" hreflang="es" href="https://sanjeev-umar.github.io/sanjeev-portfolio/?lng=es" />
+    <link rel="alternate" hreflang="pt" href="https://sanjeev-umar.github.io/sanjeev-portfolio/?lng=pt" />
+    <link rel="alternate" hreflang="x-default" href="https://sanjeev-umar.github.io/sanjeev-portfolio/" />
+
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#030014" />
+    <meta name="msapplication-TileColor" content="#030014" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Sanjeev Umar | Full Stack Developer Portfolio" />
     <meta
       property="og:description"
-      content="A unique 3D portfolio showcasing my journey through the companies I've worked at."
+      content="Explore my professional journey through an immersive 3D space-themed portfolio built with React Three Fiber."
     />
     <meta
       property="og:image"
@@ -20,7 +44,41 @@
       property="og:url"
       content="https://sanjeev-umar.github.io/sanjeev-portfolio/"
     />
+    <meta property="og:site_name" content="Sanjeev Umar Portfolio" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Sanjeev Umar | Full Stack Developer Portfolio" />
+    <meta
+      name="twitter:description"
+      content="Explore my professional journey through an immersive 3D space-themed portfolio."
+    />
+    <meta
+      name="twitter:image"
+      content="https://sanjeev-umar.github.io/sanjeev-portfolio/favicon/apple-touch-icon.png"
+    />
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Sanjeev Umar",
+      "url": "https://sanjeev-umar.github.io/sanjeev-portfolio/",
+      "jobTitle": "Full Stack Developer",
+      "sameAs": [
+        "https://github.com/sanjeev-umar",
+        "https://www.linkedin.com/in/sanjeev-umar"
+      ]
+    }
+    </script>
+
+    <!-- Preconnect for external services -->
+    <link rel="preconnect" href="https://api.emailjs.com" crossorigin />
+    <link rel="dns-prefetch" href="https://api.emailjs.com" />
+
+    <!-- Favicons -->
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -39,7 +97,6 @@
       href="/sanjeev-portfolio/favicon/favicon-16x16.png"
     />
     <link rel="manifest" href="/sanjeev-portfolio/favicon/site.webmanifest" />
-    <title>Sanjeev Umar</title>
     <style>
       body,
       html {
@@ -187,18 +244,30 @@
         margin-top: 16px;
         color: rgb(96 165 250);
         font-size: 18px;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-          sans-serif;
+        font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+          "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
         font-weight: 600;
       }
+
+      @media (prefers-reduced-motion: reduce) {
+        .exhaust-flame {
+          animation: none;
+        }
+        .app-loader {
+          transition: none;
+        }
+      }
     </style>
-    <script type="module" crossorigin src="/sanjeev-portfolio/assets/index-CRRAYowO.js"></script>
-    <link rel="stylesheet" crossorigin href="/sanjeev-portfolio/assets/index-BmTUzO3z.css">
+    <script type="module" crossorigin src="/sanjeev-portfolio/assets/index-CtyNDMeU.js"></script>
+    <link rel="modulepreload" crossorigin href="/sanjeev-portfolio/assets/vendor-three-CnjqDO7D.js">
+    <link rel="modulepreload" crossorigin href="/sanjeev-portfolio/assets/vendor-i18n-HfzvxCl8.js">
+    <link rel="modulepreload" crossorigin href="/sanjeev-portfolio/assets/vendor-postprocessing-CX-bj_eM.js">
+    <link rel="stylesheet" crossorigin href="/sanjeev-portfolio/assets/index-DDMtW935.css">
   </head>
   <body>
     <div id="root">
-      <div id="app-loader" class="app-loader">
-        <div class="rocket-container">
+      <div id="app-loader" class="app-loader" role="status" aria-live="polite" aria-label="Loading portfolio">
+        <div class="rocket-container" aria-hidden="true">
           <div class="rocket">
             <div class="rocket-body"></div>
             <div class="rocket-top"></div>

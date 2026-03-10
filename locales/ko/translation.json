@@ -5,8 +5,8 @@
     "info": {
       "click": "정보를 보려면 클릭"
     },
-    "designation": "풀스택 개발자",
-    "intro_text": "저는 실제 비즈니스 문제를 해결하는 확장 가능하고 고성능 웹 애플리케이션을 구축하는 데 열정을 가진 풀스택 개발자입니다. 지난 3년 이상 개발 스택 전반에 걸쳐 전문 지식을 연마해 왔으며, 특히 JavaScript 생태계에 특화되어 있습니다.",
+    "designation": "소프트웨어 개발자",
+    "intro_text": "4년 이상의 경험을 가진 소프트웨어 개발자입니다. 현재 인도 전역의 사원에 서비스를 제공하는 프로덕션 마이크로서비스 플랫폼(8개 서비스, gRPC, RabbitMQ, AWS ECS)을 구축하고 있습니다. Node.js와 TypeScript를 중심으로 한 백엔드 개발에 집중하며, React와 Next.js로 프론트엔드 작업도 수행합니다.",
     "skills_title": "기술",
     "languages_title": "언어",
     "title": "이력서",
@@ -18,18 +18,31 @@
     "languages": "언어",
     "lastUpdated": "마지막 업데이트",
     "positions": {
+      "ekishwar": {
+        "title": "소프트웨어 개발자",
+        "company": "Ek Ishwar",
+        "duration": "11/2025 - 현재",
+        "location": "뭄바이, 마하라슈트라, 인도",
+        "responsibilities": [
+          "Prisma, Docker, PostgreSQL을 사용하여 8개의 독립적인 Node.js/TypeScript 마이크로서비스 설계 및 배포",
+          "gRPC를 통한 서비스 간 통신과 환불 처리를 포함한 비동기 워크플로우를 위한 RabbitMQ 구현",
+          "100개 이상의 권한과 7가지 역할 유형에 걸친 권한 기반 인증을 시행하는 API 게이트웨이 구축",
+          "웹훅 검증과 RabbitMQ DLQ를 통한 환불 처리를 포함한 Razorpay 결제 라이프사이클 통합",
+          "소비자 대상 Next.js 앱과 20개 이상의 관리 모듈을 갖춘 React 관리 대시보드 출시",
+          "멀티스테이지 Docker 빌드로 모든 서비스를 컨테이너화하고 Cloud Map 서비스 디스커버리와 함께 AWS ECS에 배포"
+        ]
+      },
       "uvh": {
         "title": "소프트웨어 개발자",
         "company": "UVH Tech (Veefin)",
-        "duration": "07/2024 - 현재",
+        "duration": "07/2024 - 05/2025",
         "location": "뭄바이, 마하라슈트라, 인도",
         "responsibilities": [
-          "Router v7을 사용한 Remix 프레임워크를 구현하여 클라이언트 측 탐색 및 앱 성능을 18% 향상",
-          "로딩 시간을 22% 단축한 데이터 스트리밍 기능 개발",
-          "시장 도달범위를 25% 확대한 다국어 번역 시스템 설계",
-          "94% 코드 커버리지를 달성한 Vitest 테스트 케이스 작성, 프로덕션 버그 30% 감소",
-          "RBAC를 갖춘 안전한 인증 시스템 구축, 앱 보안 20% 향상",
-          "권한이 있는 확장 가능한 사용자 관리 모듈 개발, 관리 효율성 16% 향상"
+          "Remix, React Router v7, Tailwind CSS를 사용하여 로더-투-컴포넌트 스트리밍을 갖춘 다국어 React 애플리케이션 개발",
+          "Java Spring Boot와 Node.js로 DTO 기반 API 및 JWT 인증 백엔드 서비스 구축",
+          "안전한 세션 처리와 Express.js 미들웨어를 갖춘 JWT 인증 로그인 시스템 구현",
+          "Vitest를 사용하여 모든 주요 사용자 흐름에서 94% 프론트엔드 테스트 커버리지 달성",
+          "8명의 개발자로 구성된 크로스 펑셔널 팀과 애자일 스프린트에서 협업"
         ]
       },
       "paktolus": {
@@ -91,6 +104,13 @@
           "전환율을 12% 개선하고 로드 시간을 15% 단축한 고성능 웹 솔루션 전문화"
         ]
       }
+    },
+    "educationDetails": {
+      "degree": "이학사",
+      "major": "정보기술",
+      "university": "Mumbai University",
+      "duration": "06/2015 - 06/2018",
+      "location": "Mumbai, MH, IN"
     },
     "siteInfo": {
       "welcome": "🚀 탑승을 환영합니다!",

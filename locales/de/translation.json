@@ -5,8 +5,8 @@
     "info": {
       "click": "Klicken für Informationen"
     },
-    "designation": "Full-Stack-Entwickler",
-    "intro_text": "Ich bin ein Full-Stack-Entwickler mit einer Leidenschaft für die Entwicklung skalierbarer, leistungsstarker Webanwendungen, die echte Geschäftsprobleme lösen. In den letzten 3+ Jahren habe ich mein Fachwissen über den gesamten Entwicklungsstack hinweg geschärft, mit Spezialisierung auf JavaScript-Ökosysteme.",
+    "designation": "Softwareentwickler",
+    "intro_text": "Softwareentwickler mit über 4 Jahren Erfahrung. Derzeit Entwicklung einer produktiven Microservices-Plattform (8 Services, gRPC, RabbitMQ, AWS ECS) für Tempel in ganz Indien. Backend-fokussiert mit Node.js und TypeScript; liefere auch Frontend-Arbeit in React und Next.js.",
     "skills_title": "Fähigkeiten",
     "languages_title": "Sprachen",
     "title": "Lebenslauf",
@@ -18,18 +18,31 @@
     "languages": "Sprachen",
     "lastUpdated": "Zuletzt aktualisiert",
     "positions": {
+      "ekishwar": {
+        "title": "Softwareentwickler",
+        "company": "Ek Ishwar",
+        "duration": "11/2025 - Gegenwart",
+        "location": "Mumbai, MH, Indien",
+        "responsibilities": [
+          "8 unabhängige Node.js/TypeScript-Microservices mit Prisma, Docker und PostgreSQL entworfen und bereitgestellt",
+          "gRPC für Inter-Service-Kommunikation und RabbitMQ für asynchrone Workflows einschließlich Rückerstattungsverarbeitung implementiert",
+          "API-Gateway mit berechtigungsbasierter Autorisierung über 100+ Berechtigungen und 7 Rollentypen entwickelt",
+          "Razorpay-Zahlungslebenszyklus mit Webhook-Verifizierung und Rückerstattungsverarbeitung über RabbitMQ mit DLQ integriert",
+          "Verbraucherorientierte Next.js-App und React-Admin-Dashboard mit 20+ Verwaltungsmodulen ausgeliefert",
+          "Alle Services mit Multi-Stage Docker-Builds containerisiert und auf AWS ECS mit Cloud Map Service Discovery bereitgestellt"
+        ]
+      },
       "uvh": {
         "title": "Softwareentwickler",
         "company": "UVH Tech (Veefin)",
-        "duration": "07/2024 - Gegenwart",
+        "duration": "07/2024 - 05/2025",
         "location": "Mumbai, MH, Indien",
         "responsibilities": [
-          "Implementierung des Remix-Frameworks mit Router v7, Verbesserung der clientseitigen Navigation und App-Leistung um 18%",
-          "Entwicklung von Daten-Streaming-Funktionen, die Ladezeiten um 22% reduzierten",
-          "Architektur eines mehrsprachigen Übersetzungssystems mit 25% Steigerung der Marktreichweite",
-          "Erstellung von Vitest-Testfällen mit 94% Code-Abdeckung, Reduzierung von Produktionsfehlern um 30%",
-          "Aufbau eines sicheren Authentifizierungssystems mit RBAC, Verbesserung der App-Sicherheit um 20%",
-          "Entwicklung eines skalierbaren Benutzerverwaltungsmoduls mit Berechtigungen, Steigerung der Admin-Effizienz um 16%"
+          "Erstellung einer mehrsprachigen React-Anwendung mit Remix, React Router v7 und Tailwind CSS mit Loader-zu-Komponente Streaming",
+          "Backend-Services in Java Spring Boot und Node.js mit DTO-basierten APIs und JWT-Authentifizierung entwickelt",
+          "JWT-authentifiziertes Login-System mit sicherer Sitzungsverwaltung und Express.js-Middleware implementiert",
+          "94% Frontend-Testabdeckung mit Vitest über alle kritischen Benutzerflüsse erreicht",
+          "Zusammenarbeit in agilen Sprints mit einem funktionsübergreifenden Team von 8 Entwicklern"
         ]
       },
       "paktolus": {
@@ -91,6 +104,13 @@
           "Spezialisierung auf leistungsstarke Weblösungen, die die Konversion um 12% verbesserten und die Ladezeit um 15% verkürzten"
         ]
       }
+    },
+    "educationDetails": {
+      "degree": "Bachelor of Science",
+      "major": "Informationstechnologie",
+      "university": "Mumbai University",
+      "duration": "06/2015 - 06/2018",
+      "location": "Mumbai, MH, IN"
     },
     "siteInfo": {
       "welcome": "🚀 Willkommen an Bord!",

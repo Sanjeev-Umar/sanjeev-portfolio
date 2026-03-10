@@ -5,8 +5,8 @@
     "info": {
       "click": "Click for info"
     },
-    "designation": "Full Stack Developer",
-    "intro_text": "I'm a Full Stack Developer with a passion for building scalable, high-performance web applications that solve real business problems. Over the past 3+ years, I've honed my expertise across the entire development stack, specializing in JavaScript ecosystems.",
+    "designation": "Software Developer",
+    "intro_text": "Software developer with 4+ years of experience. Currently building a production microservices platform (8 services, gRPC, RabbitMQ, AWS ECS) serving temples across India. Backend-focused with Node.js and TypeScript; also deliver frontend work in React and Next.js.",
     "skills_title": "Skills",
     "languages_title": "Languages",
     "title": "Resume",
@@ -18,18 +18,31 @@
     "languages": "Languages",
     "lastUpdated": "Last Updated",
     "positions": {
+      "ekishwar": {
+        "title": "Software Developer",
+        "company": "Ek Ishwar",
+        "duration": "11/2025 - Present",
+        "location": "Mumbai, MH, IN",
+        "responsibilities": [
+          "Designed and deployed 8 independent Node.js/TypeScript microservices with Prisma, Docker, and PostgreSQL",
+          "Implemented gRPC for inter-service communication and RabbitMQ for async workflows including refund processing",
+          "Engineered an API gateway enforcing permission-based authorization across 100+ permissions and 7 role types",
+          "Integrated Razorpay payment lifecycle with webhook verification, refund processing via RabbitMQ with DLQ",
+          "Shipped consumer-facing Next.js app and React admin dashboard with 20+ management modules",
+          "Containerized all services with multi-stage Docker builds, deployed to AWS ECS with Cloud Map service discovery"
+        ]
+      },
       "uvh": {
         "title": "Software Developer",
         "company": "UVH Tech (Veefin)",
-        "duration": "07/2024 - Present",
+        "duration": "07/2024 - 05/2025",
         "location": "Mumbai, MH, IN",
         "responsibilities": [
-          "Implemented Remix framework with Router v7, improving client-side navigation and app performance by 18%",
-          "Developed data streaming features that reduced loading times by 22%",
-          "Architected a multi-language translation system increasing market reach by 25%",
-          "Wrote Vitest test cases achieving 94% code coverage, reducing production bugs by 30%",
-          "Built secure auth system with RBAC, improving app security by 20%",
-          "Developed scalable user management module with permissions, enhancing admin efficiency by 16%"
+          "Created a multilingual React application using Remix, React Router v7, and Tailwind CSS with loader-to-component streaming",
+          "Built backend services in Java Spring Boot and Node.js with DTO-based APIs and JWT authentication",
+          "Implemented JWT-authenticated login system with secure session handling and Express.js middleware",
+          "Achieved 94% frontend test coverage using Vitest across all critical user flows",
+          "Collaborated in Agile sprints with a cross-functional team of 8 developers"
         ]
       },
       "paktolus": {
@@ -38,13 +51,11 @@
         "duration": "12/2022 - 12/2023",
         "location": "Mumbai, MH, IN",
         "responsibilities": [
-          "Optimized long polling in quote generator for a 10% performance boost",
-          "Architected microservice infrastructure for feature separation, improving modularity by 9%",
-          "Created internal package for external service communication reducing code clutter by 20%",
-          "Built unified communication service, easing external integrations by 15%",
-          "Worked with 5+ partners to standardize quote structures, cutting integration time by 15% and improving data accuracy by 18%",
-          "Integrated Google location autocomplete, improving UX by 7%",
-          "Developed car info service fetching external data with 9% boost in accuracy"
+          "Migrated a monolithic insurance platform to NestJS microservices with PostgreSQL, enabling 4 teams to deploy independently",
+          "Designed REST APIs and built a reusable Node.js SDK adopted by 5+ partner companies for quote integrations",
+          "Integrated Google Maps API for auto-suggest address input, improving form completion accuracy",
+          "Facilitated technical discussions with 5+ partner companies to design standardized quote request-response structures",
+          "Optimized React components using custom hooks and Context API, eliminating unnecessary re-renders"
         ]
       },
       "bysness": {
@@ -53,10 +64,9 @@
         "duration": "08/2022 - 11/2022",
         "location": "Mumbai, MH, IN",
         "responsibilities": [
-          "Built dynamic dashboard in data migration tool improving info access by 22%",
-          "Created migration progress indicator, enhancing visual feedback by 9%",
-          "Developed custom editor for text documents, improving robustness by 12%",
-          "Implemented transcript search feature reducing info retrieval time by 20% and increasing user satisfaction by 22%"
+          "Built a React + Redux analytics dashboard with Recharts visualizations for migration insights",
+          "Implemented a WebSocket-based notification system with Node.js, enabling real-time updates for 50+ concurrent users",
+          "Added rich-text editor and transcript search features, improving information retrieval across the platform"
         ]
       },
       "moofwd": {
@@ -65,8 +75,8 @@
         "duration": "06/2022 - 08/2022",
         "location": "Mumbai, MH, IN",
         "responsibilities": [
-          "Added events and notifications in school portal via Strapi CMS, resulting in 9% revenue growth",
-          "Developed custom plugin for 2 client-specific needs, increasing adoption by 15%"
+          "Developed event and notification modules using Strapi headless CMS",
+          "Built custom plugins and integrations tailored to client-specific requirements"
         ]
       },
       "constbase": {
@@ -75,9 +85,8 @@
         "duration": "12/2021 - 06/2022",
         "location": "Mumbai, MH, IN",
         "responsibilities": [
-          "Built dynamic form for crypto alert system using React, Redux, Node.js improving accuracy by 30%",
-          "Added live dynamic graphs increasing interactivity by 26%",
-          "Optimized resume-building feature in job portal reducing generation time by 20%"
+          "Expanded alerting and reporting modules with React, Redux, and Node.js for a job portal platform",
+          "Optimized the resume-building feature, reducing PDF generation time for end users"
         ]
       },
       "freelancer": {
@@ -86,9 +95,8 @@
         "duration": "01/2021 - 11/2021",
         "location": "Mumbai, MH, IN",
         "responsibilities": [
-          "Delivered multiple client projects across 4 industries with 100% on-time delivery and 95% satisfaction",
-          "Managed full project lifecycle, reducing dev time by 18% and post-launch issues by 25%",
-          "Specialized in high-performance web solutions that improved conversion by 12% and cut load time by 15%"
+          "Delivered multiple web applications using React, Node.js, and MongoDB for clients across 4 industries",
+          "Managed full project lifecycles from development to deployment, handling both frontend and backend"
         ]
       }
     },
@@ -102,19 +110,31 @@
     "skillSet": [
       "JavaScript",
       "TypeScript",
+      "Java",
+      "SQL",
       "Node.js",
       "Express.js",
+      "NestJS",
+      "Spring Boot",
+      "gRPC",
+      "REST APIs",
+      "RabbitMQ",
       "React",
       "Next.js",
-      "Redux",
-      "Remix.js",
+      "Remix",
+      "Redux Toolkit",
+      "Zustand",
+      "Tailwind CSS",
+      "PostgreSQL",
+      "Prisma ORM",
       "MongoDB",
-      "Git",
+      "MySQL",
+      "Redis",
+      "Docker",
+      "AWS",
+      "GitHub Actions",
       "Microservices",
-      "Frontend",
-      "Backend",
-      "Java",
-      "Game Development"
+      "System Design"
     ],
     "languageProficiency": ["English", "Hindi", "Marathi"],
     "siteInfo": {

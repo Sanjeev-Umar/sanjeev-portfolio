@@ -5,8 +5,8 @@
     "info": {
       "click": "点击查看信息"
     },
-    "designation": "全栈开发人员",
-    "intro_text": "我是一名全栈开发人员，热衷于构建可扩展、高性能的网络应用程序，以解决实际业务问题。在过去的3年多时间里，我在整个开发栈上磨练了专业知识，专注于JavaScript生态系统。",
+    "designation": "软件开发人员",
+    "intro_text": "拥有4年以上经验的软件开发人员。目前正在构建服务于印度各地寺庙的生产级微服务平台（8个服务、gRPC、RabbitMQ、AWS ECS）。以Node.js和TypeScript为核心的后端开发为主，同时使用React和Next.js进行前端开发。",
     "skills_title": "技能",
     "languages_title": "语言",
     "title": "简历",
@@ -18,18 +18,31 @@
     "languages": "语言",
     "lastUpdated": "最后更新",
     "positions": {
+      "ekishwar": {
+        "title": "软件开发人员",
+        "company": "Ek Ishwar",
+        "duration": "11/2025 - 至今",
+        "location": "孟买，马哈拉施特拉邦，印度",
+        "responsibilities": [
+          "使用Prisma、Docker和PostgreSQL设计并部署了8个独立的Node.js/TypeScript微服务",
+          "实现了gRPC用于服务间通信，RabbitMQ用于包括退款处理在内的异步工作流",
+          "构建了API网关，在100多个权限和7种角色类型上执行基于权限的授权",
+          "集成了Razorpay支付生命周期，包括Webhook验证和通过RabbitMQ DLQ的退款处理",
+          "交付了面向消费者的Next.js应用和具有20多个管理模块的React管理仪表板",
+          "使用多阶段Docker构建将所有服务容器化，部署到带有Cloud Map服务发现的AWS ECS"
+        ]
+      },
       "uvh": {
         "title": "软件开发人员",
         "company": "UVH Tech (Veefin)",
-        "duration": "07/2024 - 至今",
+        "duration": "07/2024 - 05/2025",
         "location": "孟买，马哈拉施特拉邦，印度",
         "responsibilities": [
-          "实施带有Router v7的Remix框架，将客户端导航和应用性能提高了18%",
-          "开发数据流功能，减少了22%的加载时间",
-          "设计多语言翻译系统，使市场覆盖率提高了25%",
-          "编写Vitest测试用例，实现94%的代码覆盖率，减少了30%的生产环境错误",
-          "构建带有RBAC的安全认证系统，提高了20%的应用安全性",
-          "开发具有权限的可扩展用户管理模块，提升了16%的管理效率"
+          "使用Remix、React Router v7和Tailwind CSS创建了具有加载器到组件流式传输的多语言React应用程序",
+          "使用Java Spring Boot和Node.js构建了基于DTO的API和JWT认证的后端服务",
+          "实现了具有安全会话处理和Express.js中间件的JWT认证登录系统",
+          "使用Vitest在所有关键用户流程中实现了94%的前端测试覆盖率",
+          "在由8名开发人员组成的跨职能团队中参与敏捷冲刺协作"
         ]
       },
       "paktolus": {
@@ -91,6 +104,13 @@
           "专注于高性能网络解决方案，提高转化率12%并缩短加载时间15%"
         ]
       }
+    },
+    "educationDetails": {
+      "degree": "理学学士",
+      "major": "信息技术",
+      "university": "Mumbai University",
+      "duration": "06/2015 - 06/2018",
+      "location": "Mumbai, MH, IN"
     },
     "siteInfo": {
       "welcome": "🚀 欢迎登船！",

@@ -5,8 +5,8 @@
     "info": {
       "click": "Haga clic para información"
     },
-    "designation": "Desarrollador Full Stack",
-    "intro_text": "Soy un desarrollador Full Stack con pasión por construir aplicaciones web escalables y de alto rendimiento que resuelven problemas empresariales reales. Durante los últimos 3+ años, he perfeccionado mi experiencia en todo el stack de desarrollo, especializándome en ecosistemas JavaScript.",
+    "designation": "Desarrollador de Software",
+    "intro_text": "Desarrollador de software con más de 4 años de experiencia. Actualmente construyendo una plataforma de microservicios en producción (8 servicios, gRPC, RabbitMQ, AWS ECS) que sirve a templos en toda la India. Enfocado en backend con Node.js y TypeScript; también entrego trabajo frontend en React y Next.js.",
     "skills_title": "Habilidades",
     "languages_title": "Idiomas",
     "title": "Currículum",
@@ -18,18 +18,31 @@
     "languages": "Idiomas",
     "lastUpdated": "Última Actualización",
     "positions": {
+      "ekishwar": {
+        "title": "Desarrollador de Software",
+        "company": "Ek Ishwar",
+        "duration": "11/2025 - Presente",
+        "location": "Mumbai, MH, India",
+        "responsibilities": [
+          "Diseño y despliegue de 8 microservicios Node.js/TypeScript independientes con Prisma, Docker y PostgreSQL",
+          "Implementación de gRPC para comunicación entre servicios y RabbitMQ para flujos de trabajo asíncronos incluyendo procesamiento de reembolsos",
+          "Construcción de un API gateway que aplica autorización basada en permisos en más de 100 permisos y 7 tipos de roles",
+          "Integración del ciclo de vida de pagos de Razorpay con verificación de webhook y procesamiento de reembolsos vía RabbitMQ con DLQ",
+          "Entrega de una aplicación Next.js orientada al consumidor y un panel de administración React con más de 20 módulos de gestión",
+          "Contenedorización de todos los servicios con builds Docker multi-etapa, desplegados en AWS ECS con Cloud Map service discovery"
+        ]
+      },
       "uvh": {
         "title": "Desarrollador de Software",
         "company": "UVH Tech (Veefin)",
-        "duration": "07/2024 - Presente",
+        "duration": "07/2024 - 05/2025",
         "location": "Mumbai, MH, India",
         "responsibilities": [
-          "Implementación del framework Remix con Router v7, mejorando la navegación del lado del cliente y el rendimiento de la aplicación en un 18%",
-          "Desarrollo de características de transmisión de datos que redujeron los tiempos de carga en un 22%",
-          "Diseño de un sistema de traducción multilingüe aumentando el alcance del mercado en un 25%",
-          "Escritura de casos de prueba con Vitest logrando una cobertura de código del 94%, reduciendo errores en producción en un 30%",
-          "Construcción de un sistema de autenticación seguro con RBAC, mejorando la seguridad de la aplicación en un 20%",
-          "Desarrollo de un módulo de gestión de usuarios escalable con permisos, mejorando la eficiencia administrativa en un 16%"
+          "Creación de una aplicación React multilingüe usando Remix, React Router v7 y Tailwind CSS con streaming de loader a componente",
+          "Construcción de servicios backend en Java Spring Boot y Node.js con APIs basadas en DTO y autenticación JWT",
+          "Implementación de un sistema de inicio de sesión autenticado con JWT con manejo seguro de sesiones y middleware Express.js",
+          "Logro del 94% de cobertura de pruebas frontend usando Vitest en todos los flujos críticos de usuario",
+          "Colaboración en sprints Agile con un equipo multifuncional de 8 desarrolladores"
         ]
       },
       "paktolus": {
@@ -91,6 +104,13 @@
           "Especialización en soluciones web de alto rendimiento que mejoraron la conversión en un 12% y redujeron el tiempo de carga en un 15%"
         ]
       }
+    },
+    "educationDetails": {
+      "degree": "Licenciatura en Ciencias",
+      "major": "Tecnología de la Información",
+      "university": "Mumbai University",
+      "duration": "06/2015 - 06/2018",
+      "location": "Mumbai, MH, IN"
     },
     "siteInfo": {
       "welcome": "🚀 ¡Bienvenido a Bordo!",

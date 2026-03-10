@@ -5,8 +5,8 @@
     "info": {
       "click": "Clique para informações"
     },
-    "designation": "Desenvolvedor Full Stack",
-    "intro_text": "Sou um Desenvolvedor Full Stack com paixão por construir aplicações web escaláveis e de alto desempenho que resolvem problemas reais de negócios. Nos últimos 3+ anos, aprimorei minha expertise em toda a pilha de desenvolvimento, especializando-me em ecossistemas JavaScript.",
+    "designation": "Desenvolvedor de Software",
+    "intro_text": "Desenvolvedor de software com mais de 4 anos de experiência. Atualmente construindo uma plataforma de microsserviços em produção (8 serviços, gRPC, RabbitMQ, AWS ECS) atendendo templos em toda a Índia. Focado em backend com Node.js e TypeScript; também entrego trabalho frontend em React e Next.js.",
     "skills_title": "Competências",
     "languages_title": "Idiomas",
     "title": "Currículo",
@@ -18,18 +18,31 @@
     "languages": "Idiomas",
     "lastUpdated": "Última Atualização",
     "positions": {
+      "ekishwar": {
+        "title": "Desenvolvedor de Software",
+        "company": "Ek Ishwar",
+        "duration": "11/2025 - Presente",
+        "location": "Mumbai, MH, Índia",
+        "responsibilities": [
+          "Projeto e implantação de 8 microsserviços Node.js/TypeScript independentes com Prisma, Docker e PostgreSQL",
+          "Implementação de gRPC para comunicação entre serviços e RabbitMQ para fluxos de trabalho assíncronos incluindo processamento de reembolsos",
+          "Construção de um API gateway aplicando autorização baseada em permissões em mais de 100 permissões e 7 tipos de funções",
+          "Integração do ciclo de vida de pagamentos Razorpay com verificação de webhook e processamento de reembolsos via RabbitMQ com DLQ",
+          "Entrega de aplicativo Next.js voltado ao consumidor e painel de administração React com mais de 20 módulos de gestão",
+          "Conteinerização de todos os serviços com builds Docker multi-estágio, implantados no AWS ECS com Cloud Map service discovery"
+        ]
+      },
       "uvh": {
         "title": "Desenvolvedor de Software",
         "company": "UVH Tech (Veefin)",
-        "duration": "07/2024 - Presente",
+        "duration": "07/2024 - 05/2025",
         "location": "Mumbai, MH, Índia",
         "responsibilities": [
-          "Implementação do framework Remix com Router v7, melhorando a navegação do lado do cliente e o desempenho do aplicativo em 18%",
-          "Desenvolvimento de recursos de streaming de dados que reduziram os tempos de carregamento em 22%",
-          "Arquitetura de um sistema de tradução multilíngue aumentando o alcance de mercado em 25%",
-          "Escrita de casos de teste Vitest alcançando 94% de cobertura de código, reduzindo bugs de produção em 30%",
-          "Construção de sistema de autenticação seguro com RBAC, melhorando a segurança do aplicativo em 20%",
-          "Desenvolvimento de módulo de gerenciamento de usuários escalável com permissões, aumentando a eficiência administrativa em 16%"
+          "Criação de uma aplicação React multilíngue usando Remix, React Router v7 e Tailwind CSS com streaming de loader para componente",
+          "Construção de serviços backend em Java Spring Boot e Node.js com APIs baseadas em DTO e autenticação JWT",
+          "Implementação de sistema de login autenticado por JWT com gerenciamento seguro de sessões e middleware Express.js",
+          "Alcance de 94% de cobertura de testes frontend usando Vitest em todos os fluxos críticos de usuário",
+          "Colaboração em sprints Agile com uma equipe multifuncional de 8 desenvolvedores"
         ]
       },
       "paktolus": {
@@ -91,6 +104,13 @@
           "Especialização em soluções web de alto desempenho que melhoraram a conversão em 12% e reduziram o tempo de carregamento em 15%"
         ]
       }
+    },
+    "educationDetails": {
+      "degree": "Bacharelado em Ciências",
+      "major": "Tecnologia da Informação",
+      "university": "Mumbai University",
+      "duration": "06/2015 - 06/2018",
+      "location": "Mumbai, MH, IN"
     },
     "siteInfo": {
       "welcome": "🚀 Bem-vindo a Bordo!",
