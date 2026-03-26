@@ -1,0 +1,159 @@
+{
+  "resume": {
+    "intro": "안녕하세요, 저는 산지브입니다",
+    "name": "산지브 우마르",
+    "info": {
+      "click": "정보를 보려면 클릭"
+    },
+    "designation": "소프트웨어 개발자",
+    "intro_text": "4년 이상의 경험을 가진 소프트웨어 개발자입니다. 현재 인도 전역의 사원에 서비스를 제공하는 프로덕션 마이크로서비스 플랫폼(8개 서비스, gRPC, RabbitMQ, AWS ECS)을 구축하고 있습니다. Node.js와 TypeScript를 중심으로 한 백엔드 개발에 집중하며, React와 Next.js로 프론트엔드 작업도 수행합니다.",
+    "skills_title": "기술",
+    "languages_title": "언어",
+    "title": "이력서",
+    "download": "이력서 다운로드",
+    "viewOnline": "온라인에서 이력서 보기",
+    "experience": "경력",
+    "education": "학력",
+    "skills": "기술",
+    "languages": "언어",
+    "lastUpdated": "마지막 업데이트",
+    "positions": {
+      "ekishwar": {
+        "title": "소프트웨어 개발자",
+        "company": "Ek Ishwar",
+        "duration": "11/2025 - 현재",
+        "location": "뭄바이, 마하라슈트라, 인도",
+        "responsibilities": [
+          "Prisma, Docker, PostgreSQL을 사용하여 8개의 독립적인 Node.js/TypeScript 마이크로서비스 설계 및 배포",
+          "gRPC를 통한 서비스 간 통신과 환불 처리를 포함한 비동기 워크플로우를 위한 RabbitMQ 구현",
+          "100개 이상의 권한과 7가지 역할 유형에 걸친 권한 기반 인증을 시행하는 API 게이트웨이 구축",
+          "웹훅 검증과 RabbitMQ DLQ를 통한 환불 처리를 포함한 Razorpay 결제 라이프사이클 통합",
+          "소비자 대상 Next.js 앱과 20개 이상의 관리 모듈을 갖춘 React 관리 대시보드 출시",
+          "멀티스테이지 Docker 빌드로 모든 서비스를 컨테이너화하고 Cloud Map 서비스 디스커버리와 함께 AWS ECS에 배포"
+        ]
+      },
+      "uvh": {
+        "title": "소프트웨어 개발자",
+        "company": "UVH Tech (Veefin)",
+        "duration": "07/2024 - 05/2025",
+        "location": "뭄바이, 마하라슈트라, 인도",
+        "responsibilities": [
+          "Remix, React Router v7, Tailwind CSS를 사용하여 로더-투-컴포넌트 스트리밍을 갖춘 다국어 React 애플리케이션 개발",
+          "Java Spring Boot와 Node.js로 DTO 기반 API 및 JWT 인증 백엔드 서비스 구축",
+          "안전한 세션 처리와 Express.js 미들웨어를 갖춘 JWT 인증 로그인 시스템 구현",
+          "Vitest를 사용하여 모든 주요 사용자 흐름에서 94% 프론트엔드 테스트 커버리지 달성",
+          "8명의 개발자로 구성된 크로스 펑셔널 팀과 애자일 스프린트에서 협업"
+        ]
+      },
+      "paktolus": {
+        "title": "소프트웨어 개발자",
+        "company": "Paktolus",
+        "duration": "12/2022 - 12/2023",
+        "location": "뭄바이, 마하라슈트라, 인도",
+        "responsibilities": [
+          "견적 생성기의 롱 폴링을 최적화하여 성능 10% 향상",
+          "기능 분리를 위한 마이크로서비스 인프라 설계, 모듈성 9% 향상",
+          "외부 서비스 통신을 위한 내부 패키지 생성, 코드 복잡성 20% 감소",
+          "통합 커뮤니케이션 서비스 구축, 외부 통합 15% 용이화",
+          "5개 이상의 파트너와 협력하여 견적 구조 표준화, 통합 시간 15% 단축 및 데이터 정확도 18% 향상",
+          "Google 위치 자동완성 통합, UX 7% 개선",
+          "외부 데이터를 가져오는 자동차 정보 서비스 개발, 정확도 9% 향상"
+        ]
+      },
+      "bysness": {
+        "title": "소프트웨어 개발자",
+        "company": "Bysness",
+        "duration": "08/2022 - 11/2022",
+        "location": "뭄바이, 마하라슈트라, 인도",
+        "responsibilities": [
+          "데이터 마이그레이션 도구에 동적 대시보드 구축, 정보 접근성 22% 향상",
+          "마이그레이션 진행 표시기 생성, 시각적 피드백 9% 향상",
+          "텍스트 문서용 커스텀 에디터 개발, 견고성 12% 향상",
+          "트랜스크립트 검색 기능 구현, 정보 검색 시간 20% 단축 및 사용자 만족도 22% 향상"
+        ]
+      },
+      "moofwd": {
+        "title": "제품 엔지니어",
+        "company": "Moofwd Technologies",
+        "duration": "06/2022 - 08/2022",
+        "location": "뭄바이, 마하라슈트라, 인도",
+        "responsibilities": [
+          "Strapi CMS를 통해 학교 포털에 이벤트 및 알림 추가, 9% 수익 성장 달성",
+          "2개의 고객별 요구사항을 위한 커스텀 플러그인 개발, 채택률 15% 증가"
+        ]
+      },
+      "constbase": {
+        "title": "소프트웨어 개발자",
+        "company": "Constbase",
+        "duration": "12/2021 - 06/2022",
+        "location": "뭄바이, 마하라슈트라, 인도",
+        "responsibilities": [
+          "React, Redux, Node.js를 사용하여 암호화폐 알림 시스템용 동적 양식 구축, 정확도 30% 향상",
+          "실시간 동적 그래프 추가, 상호작용성 26% 향상",
+          "구직 포털의 이력서 작성 기능 최적화, 생성 시간 20% 단축"
+        ]
+      },
+      "freelancer": {
+        "title": "웹 개발자",
+        "company": "프리랜서",
+        "duration": "01/2021 - 11/2021",
+        "location": "뭄바이, 마하라슈트라, 인도",
+        "responsibilities": [
+          "4개 산업 분야에 걸친 다수의 고객 프로젝트를 100% 정시 납품 및 95% 만족도로 완수",
+          "전체 프로젝트 수명주기 관리, 개발 시간 18% 단축 및 출시 후 문제 25% 감소",
+          "전환율을 12% 개선하고 로드 시간을 15% 단축한 고성능 웹 솔루션 전문화"
+        ]
+      }
+    },
+    "educationDetails": {
+      "degree": "이학사",
+      "major": "정보기술",
+      "university": "Mumbai University",
+      "duration": "06/2015 - 06/2018",
+      "location": "Mumbai, MH, IN"
+    },
+    "siteInfo": {
+      "welcome": "🚀 탑승을 환영합니다!",
+      "centralPlanet": {
+        "title": "🌍 중앙 행성",
+        "description": "중앙에 빛나는 저 행성? 네, 그게 바로 저예요! 클릭하면 제 이야기로 빠져들어 저에 대해 알아볼 수 있어요."
+      },
+      "experienceRings": {
+        "title": "💫 경험의 고리",
+        "description": "제 주위를 공전하는 것은 제 경력 여정의 하이라이트입니다. 고리 위에 마우스를 올려 살짝 엿보고 — 클릭하면 더 자세히 알아볼 수 있어요!"
+      },
+      "languageAsteroid": {
+        "title": "🪐 언어 소행성",
+        "description": "근처에 떠 있는 편리한 소행성으로 언어를 전환할 수 있어요. 좋아하는 언어를 선택하고 모국어로 여행을 즐기세요!"
+      },
+      "contactRocket": {
+        "title": "🚀 연락 로켓",
+        "description": "발사 준비 완료? 로켓을 클릭하여 메시지를 보내주세요 — 연락 주시면 정말 기쁠 거예요!"
+      },
+      "exploreButton": "알겠어요, 탐험해 볼까요!"
+    }
+  },
+  "contact": {
+    "title": "연락하기",
+    "name": "이름",
+    "email": "이메일",
+    "message": "메시지",
+    "namePlaceholder": "귀하의 이름",
+    "emailPlaceholder": "your.email@example.com",
+    "messagePlaceholder": "여기에 메시지를 입력하세요...",
+    "send": "메시지 보내기",
+    "sending": "전송 중...",
+    "success": "메시지가 성공적으로 전송되었습니다! 양식이 곧 닫힙니다.",
+    "error": "메시지 전송에 실패했습니다. 다시 시도해 주세요.",
+    "errors": {
+      "nameRequired": "이름이 필요합니다",
+      "emailRequired": "이메일이 필요합니다",
+      "emailInvalid": "유효한 이메일을 입력해 주세요",
+      "messageRequired": "메시지가 필요합니다"
+    }
+  },
+  "social": {
+    "github": "깃허브",
+    "linkedin": "링크드인"
+  }
+}

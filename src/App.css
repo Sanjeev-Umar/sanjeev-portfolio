@@ -1,0 +1,487 @@
+/* Reset default margins and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
+
+/* GPU-accelerate the canvas container */
+canvas {
+  will-change: contents;
+  contain: strict;
+}
+
+/* Ensure proper height on mobile */
+@supports (-webkit-touch-callout: none) {
+  .min-h-screen {
+    min-height: -webkit-fill-available;
+  }
+}
+
+/* Game-style cartoon tooltip */
+.game-tooltip {
+  position: fixed;
+  pointer-events: none;
+  z-index: 50;
+  animation: tooltipBounceIn 0.25s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+  will-change: transform, opacity;
+  contain: layout style;
+}
+
+.game-tooltip-inner {
+  position: relative;
+  background: linear-gradient(135deg, #1a0a3e 0%, #0f0625 50%, #1a0a3e 100%);
+  border: 2px solid #a78bfa;
+  border-radius: 12px;
+  padding: 10px 16px;
+  min-width: 160px;
+  box-shadow:
+    0 0 12px rgba(139, 92, 246, 0.5),
+    0 0 30px rgba(139, 92, 246, 0.15),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+/* Corner decorations */
+.game-tooltip-inner::before,
+.game-tooltip-inner::after {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border: 2px solid #c4b5fd;
+  border-radius: 2px;
+  background: #8b5cf6;
+  box-shadow: 0 0 6px rgba(139, 92, 246, 0.8);
+}
+
+.game-tooltip-inner::before {
+  top: -5px;
+  left: -5px;
+}
+
+.game-tooltip-inner::after {
+  top: -5px;
+  right: -5px;
+}
+
+/* Bottom corner diamonds */
+.game-tooltip-corners::before,
+.game-tooltip-corners::after {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border: 2px solid #c4b5fd;
+  border-radius: 2px;
+  background: #8b5cf6;
+  box-shadow: 0 0 6px rgba(139, 92, 246, 0.8);
+}
+
+.game-tooltip-corners::before {
+  bottom: -5px;
+  left: -5px;
+}
+
+.game-tooltip-corners::after {
+  bottom: -5px;
+  right: -5px;
+}
+
+/* Pointer arrow */
+.game-tooltip-arrow {
+  position: absolute;
+  bottom: -8px;
+  left: 20px;
+  width: 14px;
+  height: 14px;
+  background: linear-gradient(135deg, #1a0a3e, #0f0625);
+  border-right: 2px solid #a78bfa;
+  border-bottom: 2px solid #a78bfa;
+  transform: rotate(45deg);
+  box-shadow: 4px 4px 8px rgba(139, 92, 246, 0.2);
+}
+
+.game-tooltip-title {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: #e9d5ff;
+  text-shadow: 0 0 8px rgba(139, 92, 246, 0.6);
+  letter-spacing: 0.02em;
+  margin-bottom: 2px;
+}
+
+.game-tooltip-subtitle {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 0.75rem;
+  color: #a78bfa;
+  letter-spacing: 0.01em;
+}
+
+/* Horizontal divider line */
+.game-tooltip-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #8b5cf6, transparent);
+  margin: 5px 0;
+}
+
+/* Scanline overlay effect */
+.game-tooltip-scanlines {
+  position: absolute;
+  inset: 0;
+  border-radius: 12px;
+  overflow: hidden;
+  pointer-events: none;
+  opacity: 0.04;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(255, 255, 255, 0.5) 2px,
+    rgba(255, 255, 255, 0.5) 4px
+  );
+}
+
+@keyframes tooltipBounceIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.6) translateY(8px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+/* ─── Space Modal System ─── */
+.space-modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at center, rgba(15, 6, 37, 0.85) 0%, rgba(0, 0, 0, 0.92) 100%);
+  backdrop-filter: blur(8px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  animation: modalFadeIn 0.3s ease-out;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
+
+.space-modal {
+  position: relative;
+  background: linear-gradient(160deg, rgba(26, 10, 62, 0.95) 0%, rgba(8, 3, 20, 0.98) 40%, rgba(15, 8, 40, 0.95) 100%);
+  border: 1px solid rgba(139, 92, 246, 0.4);
+  border-radius: 16px;
+  overflow: hidden;
+  animation: modalSlideIn 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow:
+    0 0 20px rgba(139, 92, 246, 0.2),
+    0 0 60px rgba(139, 92, 246, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+/* Corner accents */
+.space-modal::before,
+.space-modal::after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border: 2px solid #a78bfa;
+  border-radius: 2px;
+  background: #7c3aed;
+  box-shadow: 0 0 8px rgba(139, 92, 246, 0.8);
+  z-index: 2;
+}
+
+.space-modal::before {
+  top: -5px;
+  left: -5px;
+}
+
+.space-modal::after {
+  top: -5px;
+  right: -5px;
+}
+
+.space-modal-corners::before,
+.space-modal-corners::after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border: 2px solid #a78bfa;
+  border-radius: 2px;
+  background: #7c3aed;
+  box-shadow: 0 0 8px rgba(139, 92, 246, 0.8);
+  z-index: 2;
+}
+
+.space-modal-corners::before {
+  bottom: -5px;
+  left: -5px;
+}
+
+.space-modal-corners::after {
+  bottom: -5px;
+  right: -5px;
+}
+
+/* Scanline overlay for modals */
+.space-modal-scanlines {
+  position: absolute;
+  inset: 0;
+  border-radius: 16px;
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0.03;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(255, 255, 255, 0.4) 2px,
+    rgba(255, 255, 255, 0.4) 4px
+  );
+}
+
+/* Top glow bar */
+.space-modal-glow {
+  position: absolute;
+  top: 0;
+  left: 10%;
+  right: 10%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #a78bfa, transparent);
+  z-index: 2;
+}
+
+/* Modal header */
+.space-modal-header {
+  position: relative;
+  padding: 1.5rem 2rem 1rem;
+  border-bottom: 1px solid rgba(139, 92, 246, 0.15);
+  z-index: 2;
+}
+
+/* Modal body */
+.space-modal-body {
+  position: relative;
+  padding: 1.25rem 2rem 2rem;
+  z-index: 2;
+}
+
+/* Close button — min 44x44 for WCAG 2.5.5 touch target */
+.space-modal-close {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(139, 92, 246, 0.3);
+  border-radius: 8px;
+  background: rgba(139, 92, 246, 0.1);
+  color: #c4b5fd;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  z-index: 3;
+}
+
+.space-modal-close:hover {
+  background: rgba(139, 92, 246, 0.3);
+  border-color: #a78bfa;
+  color: white;
+  box-shadow: 0 0 12px rgba(139, 92, 246, 0.4);
+}
+
+.space-modal-close:focus-visible {
+  outline: 2px solid #a78bfa;
+  outline-offset: 2px;
+  background: rgba(139, 92, 246, 0.3);
+}
+
+/* Divider line */
+.space-modal-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(139, 92, 246, 0.3), transparent);
+  margin: 1rem 0;
+}
+
+/* Tag pills */
+.space-tag {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.8rem;
+  border: 1px solid rgba(139, 92, 246, 0.25);
+  background: rgba(139, 92, 246, 0.1);
+  color: #e9d5ff;
+  transition: all 0.2s;
+}
+
+.space-tag:hover {
+  background: rgba(139, 92, 246, 0.2);
+  border-color: rgba(139, 92, 246, 0.5);
+  box-shadow: 0 0 8px rgba(139, 92, 246, 0.2);
+}
+
+.space-tag-alt {
+  border-color: rgba(96, 165, 250, 0.25);
+  background: rgba(96, 165, 250, 0.1);
+  color: #bfdbfe;
+}
+
+.space-tag-alt:hover {
+  background: rgba(96, 165, 250, 0.2);
+  border-color: rgba(96, 165, 250, 0.5);
+  box-shadow: 0 0 8px rgba(96, 165, 250, 0.2);
+}
+
+/* Responsibility items */
+.space-list-item {
+  position: relative;
+  padding-left: 1.25rem;
+  color: #d1d5db;
+  line-height: 1.6;
+}
+
+.space-list-item::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.65em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #8b5cf6;
+  box-shadow: 0 0 6px rgba(139, 92, 246, 0.6);
+}
+
+/* Button */
+.space-btn {
+  padding: 0.5rem 1.5rem;
+  border-radius: 10px;
+  font-weight: 600;
+  border: 1px solid rgba(139, 92, 246, 0.4);
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.2) 0%, rgba(99, 102, 241, 0.2) 100%);
+  color: #e9d5ff;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.space-btn:hover {
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.4) 0%, rgba(99, 102, 241, 0.4) 100%);
+  border-color: #a78bfa;
+  box-shadow: 0 0 16px rgba(139, 92, 246, 0.3);
+  color: white;
+}
+
+.space-btn:focus-visible {
+  outline: 2px solid #a78bfa;
+  outline-offset: 2px;
+  box-shadow: 0 0 16px rgba(139, 92, 246, 0.3);
+}
+
+/* Section heading */
+.space-section-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #c4b5fd;
+  text-shadow: 0 0 12px rgba(139, 92, 246, 0.3);
+  margin-bottom: 0.75rem;
+}
+
+/* Location badge */
+.space-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  border: 1px solid rgba(139, 92, 246, 0.2);
+  background: rgba(139, 92, 246, 0.08);
+  color: #a78bfa;
+}
+
+@keyframes modalFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes modalSlideIn {
+  from {
+    opacity: 0;
+    transform: scale(0.92) translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+/* ─── Skip Navigation Link (WCAG 2.4.1) ─── */
+.skip-nav {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  z-index: 9999;
+  padding: 0.75rem 1.5rem;
+  background: #1a0a3e;
+  color: #e9d5ff;
+  border: 2px solid #a78bfa;
+  border-radius: 0 0 8px 0;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.skip-nav:focus {
+  top: 0;
+}
+
+/* ─── Mobile Performance ─── */
+@media (max-width: 768px) {
+  .space-modal-backdrop {
+    backdrop-filter: none;
+  }
+}
+
+/* ─── Reduced Motion (WCAG 2.3.3) ─── */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .game-tooltip {
+    animation: none;
+  }
+
+  .space-modal-backdrop {
+    animation: none;
+  }
+
+  .space-modal {
+    animation: none;
+  }
+}

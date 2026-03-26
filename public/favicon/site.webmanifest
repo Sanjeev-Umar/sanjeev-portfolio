@@ -1,0 +1,21 @@
+{
+  "name": "Sanjeev Umar - Developer Portfolio",
+  "short_name": "Sanjeev Portfolio",
+  "icons": [
+    {
+      "src": "/sanjeev-portfolio/favicon/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/sanjeev-portfolio/favicon/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#030014",
+  "background_color": "#030014",
+  "display": "standalone",
+  "start_url": "/sanjeev-portfolio/",
+  "scope": "/sanjeev-portfolio/"
+}

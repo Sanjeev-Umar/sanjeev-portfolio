@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sanjeev Umar | Full Stack Developer Portfolio</title>
+
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="Sanjeev Umar - Full stack developer portfolio with interactive 3D space theme. Explore my professional journey through an immersive experience built with React Three Fiber."
+    />
+    <meta name="author" content="Sanjeev Umar" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://sanjeev-umar.github.io/sanjeev-portfolio/" />
+
+    <!-- Hreflang for multilingual SEO -->
+    <link rel="alternate" hreflang="en" href="https://sanjeev-umar.github.io/sanjeev-portfolio/?lng=en" />
+    <link rel="alternate" hreflang="ja" href="https://sanjeev-umar.github.io/sanjeev-portfolio/?lng=ja" />
+    <link rel="alternate" hreflang="de" href="https://sanjeev-umar.github.io/sanjeev-portfolio/?lng=de" />
+    <link rel="alternate" hreflang="zh" href="https://sanjeev-umar.github.io/sanjeev-portfolio/?lng=zh" />
+    <link rel="alternate" hreflang="ko" href="https://sanjeev-umar.github.io/sanjeev-portfolio/?lng=ko" />
+    <link rel="alternate" hreflang="fr" href="https://sanjeev-umar.github.io/sanjeev-portfolio/?lng=fr" />
+    <link rel="alternate" hreflang="es" href="https://sanjeev-umar.github.io/sanjeev-portfolio/?lng=es" />
+    <link rel="alternate" hreflang="pt" href="https://sanjeev-umar.github.io/sanjeev-portfolio/?lng=pt" />
+    <link rel="alternate" hreflang="x-default" href="https://sanjeev-umar.github.io/sanjeev-portfolio/" />
+
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#030014" />
+    <meta name="msapplication-TileColor" content="#030014" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Sanjeev Umar | Full Stack Developer Portfolio" />
+    <meta
+      property="og:description"
+      content="Explore my professional journey through an immersive 3D space-themed portfolio built with React Three Fiber."
+    />
+    <meta
+      property="og:image"
+      content="https://sanjeev-umar.github.io/sanjeev-portfolio/favicon/apple-touch-icon.png"
+    />
+    <meta
+      property="og:url"
+      content="https://sanjeev-umar.github.io/sanjeev-portfolio/"
+    />
+    <meta property="og:site_name" content="Sanjeev Umar Portfolio" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Sanjeev Umar | Full Stack Developer Portfolio" />
+    <meta
+      name="twitter:description"
+      content="Explore my professional journey through an immersive 3D space-themed portfolio."
+    />
+    <meta
+      name="twitter:image"
+      content="https://sanjeev-umar.github.io/sanjeev-portfolio/favicon/apple-touch-icon.png"
+    />
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Sanjeev Umar",
+      "url": "https://sanjeev-umar.github.io/sanjeev-portfolio/",
+      "jobTitle": "Full Stack Developer",
+      "sameAs": [
+        "https://github.com/sanjeev-umar",
+        "https://www.linkedin.com/in/sanjeev-umar"
+      ]
+    }
+    </script>
+
+    <!-- Preconnect for external services -->
+    <link rel="preconnect" href="https://raw.githubusercontent.com" crossorigin />
+    <link rel="dns-prefetch" href="https://raw.githubusercontent.com" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/favicon/site.webmanifest" />
+    <style>
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+      }
+
+      #root {
+        height: 100%;
+      }
+
+      .app-loader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #030014;
+        z-index: 9999;
+        transition: opacity 0.3s, visibility 0.3s;
+      }
+
+      .app-loader.loaded {
+        opacity: 0;
+        visibility: hidden;
+      }
+
+      .rocket-container {
+        position: relative;
+        width: 160px;
+        height: 160px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .rocket {
+        position: relative;
+        width: 80px;
+        height: 128px;
+      }
+
+      .rocket-body {
+        position: absolute;
+        width: 40px;
+        height: 96px;
+        background-color: rgb(199 210 254);
+        border-radius: 8px;
+        left: 20px;
+        bottom: 0;
+      }
+
+      .rocket-top {
+        position: absolute;
+        width: 0;
+        height: 0;
+        left: 20px;
+        bottom: 96px;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-bottom: 16px solid rgb(99 102 241);
+      }
+
+      .rocket-window {
+        position: absolute;
+        width: 22px;
+        height: 22px;
+        background-color: rgb(96 165 250);
+        border-radius: 50%;
+        left: 28px;
+        bottom: 64px;
+        border: 2px solid rgb(37 99 235);
+      }
+
+      .rocket-fin-left {
+        position: absolute;
+        width: 0;
+        height: 0;
+        left: 4px;
+        bottom: 16px;
+        border-left: 12px solid transparent;
+        border-bottom: 20px solid rgb(99 102 241);
+      }
+
+      .rocket-fin-right {
+        position: absolute;
+        width: 0;
+        height: 0;
+        right: 4px;
+        bottom: 16px;
+        border-right: 12px solid transparent;
+        border-bottom: 20px solid rgb(99 102 241);
+      }
+
+      .rocket-exhaust {
+        position: absolute;
+        width: 40px;
+        display: flex;
+        justify-content: center;
+        left: 20px;
+        bottom: -36px;
+      }
+
+      .exhaust-flame {
+        width: 8px;
+        height: 24px;
+        background-color: rgb(192 132 252);
+        margin: 0 2px;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        opacity: 0.75;
+        animation: flame-pulse 1s infinite;
+      }
+
+      .exhaust-flame:nth-child(2) {
+        height: 32px;
+        background-color: rgb(168 85 247);
+        animation-delay: 0.2s;
+      }
+
+      .exhaust-flame:nth-child(3) {
+        background-color: rgb(192 132 252);
+        animation-delay: 0.4s;
+      }
+
+      @keyframes flame-pulse {
+        0%,
+        100% {
+          transform: scaleY(1);
+          opacity: 0.75;
+        }
+        50% {
+          transform: scaleY(1.2);
+          opacity: 0.9;
+        }
+      }
+
+      .loading-text {
+        margin-top: 16px;
+        color: rgb(96 165 250);
+        font-size: 18px;
+        font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+          "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+        font-weight: 600;
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .exhaust-flame {
+          animation: none;
+        }
+        .app-loader {
+          transition: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <div id="app-loader" class="app-loader" role="status" aria-live="polite" aria-label="Loading portfolio">
+        <div class="rocket-container" aria-hidden="true">
+          <div class="rocket">
+            <div class="rocket-body"></div>
+            <div class="rocket-top"></div>
+            <div class="rocket-window"></div>
+            <div class="rocket-fin-left"></div>
+            <div class="rocket-fin-right"></div>
+            <div class="rocket-exhaust">
+              <div class="exhaust-flame"></div>
+              <div class="exhaust-flame"></div>
+              <div class="exhaust-flame"></div>
+            </div>
+          </div>
+        </div>
+        <div class="loading-text">Preparing to take off...</div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const loader = document.getElementById("app-loader");
+        const observer = new MutationObserver(function (mutations) {
+          mutations.forEach(function (mutation) {
+            if (mutation.target.children.length > 1) {
+              loader.classList.add("loaded");
+              setTimeout(function () {
+                if (loader.parentNode) {
+                  loader.parentNode.removeChild(loader);
+                }
+              }, 300);
+              observer.disconnect();
+            }
+          });
+        });
+
+        observer.observe(document.getElementById("root"), {
+          childList: true,
+          subtree: true,
+        });
+
+        setTimeout(function () {
+          if (loader && !loader.classList.contains("loaded")) {
+            loader.classList.add("loaded");
+            setTimeout(function () {
+              if (loader.parentNode) {
+                loader.parentNode.removeChild(loader);
+              }
+            }, 300);
+          }
+        }, 5000);
+      });
+    </script>
+  </body>
+</html>

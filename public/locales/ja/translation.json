@@ -1,0 +1,159 @@
+{
+  "resume": {
+    "intro": "こんにちは、サンジーブです",
+    "name": "サンジーブ・ウマール",
+    "info": {
+      "click": "クリックして詳細を表示"
+    },
+    "designation": "ソフトウェア開発者",
+    "intro_text": "4年以上の経験を持つソフトウェア開発者。現在、インド全土の寺院にサービスを提供する本番マイクロサービスプラットフォーム（8サービス、gRPC、RabbitMQ、AWS ECS）を構築中。Node.jsとTypeScriptを中心としたバックエンド開発に注力し、ReactとNext.jsによるフロントエンド開発も手がけています。",
+    "skills_title": "スキル",
+    "languages_title": "言語",
+    "title": "履歴書",
+    "download": "履歴書をダウンロード",
+    "viewOnline": "オンラインで履歴書を見る",
+    "experience": "経験",
+    "education": "学歴",
+    "skills": "スキル",
+    "languages": "言語",
+    "lastUpdated": "最終更新日",
+    "positions": {
+      "ekishwar": {
+        "title": "ソフトウェア開発者",
+        "company": "Ek Ishwar",
+        "duration": "11/2025 - 現在",
+        "location": "ムンバイ、マハーラーシュトラ州、インド",
+        "responsibilities": [
+          "Prisma、Docker、PostgreSQLを使用して8つの独立したNode.js/TypeScriptマイクロサービスを設計・デプロイ",
+          "gRPCによるサービス間通信とRabbitMQによる返金処理を含む非同期ワークフローを実装",
+          "100以上のパーミッションと7つのロールタイプにわたるパーミッションベースの認証を実施するAPIゲートウェイを構築",
+          "Webhook検証とRabbitMQ DLQによる返金処理を含むRazorpay決済ライフサイクルを統合",
+          "消費者向けNext.jsアプリと20以上の管理モジュールを持つReact管理ダッシュボードを提供",
+          "マルチステージDockerビルドで全サービスをコンテナ化し、Cloud Mapサービスディスカバリ付きAWS ECSにデプロイ"
+        ]
+      },
+      "uvh": {
+        "title": "ソフトウェア開発者",
+        "company": "UVH Tech (Veefin)",
+        "duration": "07/2024 - 05/2025",
+        "location": "ムンバイ、マハーラーシュトラ州、インド",
+        "responsibilities": [
+          "Remix、React Router v7、Tailwind CSSを使用してローダーからコンポーネントへのストリーミングを備えた多言語Reactアプリケーションを構築",
+          "Java Spring BootとNode.jsでDTO ベースのAPIとJWT認証のバックエンドサービスを構築",
+          "安全なセッション処理とExpress.jsミドルウェアを備えたJWT認証ログインシステムを実装",
+          "Vitestを使用してすべての重要なユーザーフローで94%のフロントエンドテストカバレッジを達成",
+          "8人の開発者からなるクロスファンクショナルチームとアジャイルスプリントで協働"
+        ]
+      },
+      "paktolus": {
+        "title": "ソフトウェア開発者",
+        "company": "Paktolus",
+        "duration": "12/2022 - 12/2023",
+        "location": "ムンバイ、マハーラーシュトラ州、インド",
+        "responsibilities": [
+          "見積もりジェネレーターのロングポーリングを最適化し、パフォーマンスを10%向上",
+          "機能分離のためのマイクロサービスインフラストラクチャを設計し、モジュール性を9%向上",
+          "外部サービス通信用の内部パッケージを作成し、コードの煩雑さを20%削減",
+          "統一されたコミュニケーションサービスを構築し、外部統合を15%容易化",
+          "5社以上のパートナーと協力して見積もり構造を標準化し、統合時間を15%短縮しデータ精度を18%向上",
+          "Googleロケーション自動補完を統合し、UXを7%向上",
+          "外部データを取得する車両情報サービスを開発し、精度を9%向上"
+        ]
+      },
+      "bysness": {
+        "title": "ソフトウェア開発者",
+        "company": "Bysness",
+        "duration": "08/2022 - 11/2022",
+        "location": "ムンバイ、マハーラーシュトラ州、インド",
+        "responsibilities": [
+          "データ移行ツールに動的ダッシュボードを構築し、情報アクセスを22%向上",
+          "移行進捗インジケーターを作成し、視覚的フィードバックを9%向上",
+          "テキスト文書用のカスタムエディターを開発し、堅牢性を12%向上",
+          "文字起こし検索機能を実装し、情報検索時間を20%短縮し、ユーザー満足度を22%向上"
+        ]
+      },
+      "moofwd": {
+        "title": "プロダクトエンジニア",
+        "company": "Moofwd Technologies",
+        "duration": "06/2022 - 08/2022",
+        "location": "ムンバイ、マハーラーシュトラ州、インド",
+        "responsibilities": [
+          "Strapi CMSを通じて学校ポータルにイベントと通知を追加し、9%の収益成長を実現",
+          "2つのクライアント固有のニーズに対応するカスタムプラグインを開発し、採用率を15%向上"
+        ]
+      },
+      "constbase": {
+        "title": "ソフトウェア開発者",
+        "company": "Constbase",
+        "duration": "12/2021 - 06/2022",
+        "location": "ムンバイ、マハーラーシュトラ州、インド",
+        "responsibilities": [
+          "React、Redux、Node.jsを使用して暗号アラートシステム用の動的フォームを構築し、精度を30%向上",
+          "ライブ動的グラフを追加し、インタラクティブ性を26%向上",
+          "求人ポータルの履歴書作成機能を最適化し、生成時間を20%短縮"
+        ]
+      },
+      "freelancer": {
+        "title": "ウェブ開発者",
+        "company": "フリーランサー",
+        "duration": "01/2021 - 11/2021",
+        "location": "ムンバイ、マハーラーシュトラ州、インド",
+        "responsibilities": [
+          "4つの業界にわたる複数のクライアントプロジェクトを100%期限内に納品し、95%の満足度を達成",
+          "プロジェクトの全ライフサイクルを管理し、開発時間を18%短縮し、リリース後の問題を25%削減",
+          "コンバージョンを12%向上させ、読み込み時間を15%短縮する高性能ウェブソリューションを専門に開発"
+        ]
+      }
+    },
+    "educationDetails": {
+      "degree": "理学士",
+      "major": "情報技術",
+      "university": "Mumbai University",
+      "duration": "06/2015 - 06/2018",
+      "location": "Mumbai, MH, IN"
+    },
+    "siteInfo": {
+      "welcome": "🚀 ようこそ宇宙船へ！",
+      "centralPlanet": {
+        "title": "🌍 セントラルプラネット",
+        "description": "中央に輝くあの惑星？そう、それは私です！クリックして私のストーリーに飛び込み、私について知ってください。"
+      },
+      "experienceRings": {
+        "title": "💫 経験のリング",
+        "description": "私の周りを公転しているのは、私のキャリアの軌跡です。リングにカーソルを合わせると少し覗けます — クリックすると詳細が見られます！"
+      },
+      "languageAsteroid": {
+        "title": "🪐 言語小惑星",
+        "description": "近くに浮かんでいるのは、言語を切り替えられる便利な小惑星です。お好きな言語を選んで、母国語で旅をお楽しみください！"
+      },
+      "contactRocket": {
+        "title": "🚀 コンタクトロケット",
+        "description": "発射準備完了？ロケットをクリックしてメッセージを送ってください — ご連絡をお待ちしています！"
+      },
+      "exploreButton": "了解！探検しよう！"
+    }
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "name": "名前",
+    "email": "メール",
+    "message": "メッセージ",
+    "namePlaceholder": "あなたの名前",
+    "emailPlaceholder": "your.email@example.com",
+    "messagePlaceholder": "メッセージを入力してください...",
+    "send": "メッセージを送信",
+    "sending": "送信中...",
+    "success": "メッセージが正常に送信されました！フォームはまもなく閉じます。",
+    "error": "メッセージの送信に失敗しました。もう一度お試しください。",
+    "errors": {
+      "nameRequired": "名前は必須です",
+      "emailRequired": "メールは必須です",
+      "emailInvalid": "有効なメールアドレスを入力してください",
+      "messageRequired": "メッセージは必須です"
+    }
+  },
+  "social": {
+    "github": "GitHub",
+    "linkedin": "LinkedIn"
+  }
+}

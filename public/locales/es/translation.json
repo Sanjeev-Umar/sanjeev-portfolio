@@ -1,0 +1,159 @@
+{
+  "resume": {
+    "intro": "Hola, soy Sanjeev",
+    "name": "Sanjeev Umar",
+    "info": {
+      "click": "Haga clic para información"
+    },
+    "designation": "Desarrollador de Software",
+    "intro_text": "Desarrollador de software con más de 4 años de experiencia. Actualmente construyendo una plataforma de microservicios en producción (8 servicios, gRPC, RabbitMQ, AWS ECS) que sirve a templos en toda la India. Enfocado en backend con Node.js y TypeScript; también entrego trabajo frontend en React y Next.js.",
+    "skills_title": "Habilidades",
+    "languages_title": "Idiomas",
+    "title": "Currículum",
+    "download": "Descargar Currículum",
+    "viewOnline": "Ver Currículum en Línea",
+    "experience": "Experiencia",
+    "education": "Educación",
+    "skills": "Habilidades",
+    "languages": "Idiomas",
+    "lastUpdated": "Última Actualización",
+    "positions": {
+      "ekishwar": {
+        "title": "Desarrollador de Software",
+        "company": "Ek Ishwar",
+        "duration": "11/2025 - Presente",
+        "location": "Mumbai, MH, India",
+        "responsibilities": [
+          "Diseño y despliegue de 8 microservicios Node.js/TypeScript independientes con Prisma, Docker y PostgreSQL",
+          "Implementación de gRPC para comunicación entre servicios y RabbitMQ para flujos de trabajo asíncronos incluyendo procesamiento de reembolsos",
+          "Construcción de un API gateway que aplica autorización basada en permisos en más de 100 permisos y 7 tipos de roles",
+          "Integración del ciclo de vida de pagos de Razorpay con verificación de webhook y procesamiento de reembolsos vía RabbitMQ con DLQ",
+          "Entrega de una aplicación Next.js orientada al consumidor y un panel de administración React con más de 20 módulos de gestión",
+          "Contenedorización de todos los servicios con builds Docker multi-etapa, desplegados en AWS ECS con Cloud Map service discovery"
+        ]
+      },
+      "uvh": {
+        "title": "Desarrollador de Software",
+        "company": "UVH Tech (Veefin)",
+        "duration": "07/2024 - 05/2025",
+        "location": "Mumbai, MH, India",
+        "responsibilities": [
+          "Creación de una aplicación React multilingüe usando Remix, React Router v7 y Tailwind CSS con streaming de loader a componente",
+          "Construcción de servicios backend en Java Spring Boot y Node.js con APIs basadas en DTO y autenticación JWT",
+          "Implementación de un sistema de inicio de sesión autenticado con JWT con manejo seguro de sesiones y middleware Express.js",
+          "Logro del 94% de cobertura de pruebas frontend usando Vitest en todos los flujos críticos de usuario",
+          "Colaboración en sprints Agile con un equipo multifuncional de 8 desarrolladores"
+        ]
+      },
+      "paktolus": {
+        "title": "Desarrollador de Software",
+        "company": "Paktolus",
+        "duration": "12/2022 - 12/2023",
+        "location": "Mumbai, MH, India",
+        "responsibilities": [
+          "Optimización de sondeo largo en generador de cotizaciones para un impulso de rendimiento del 10%",
+          "Diseño de infraestructura de microservicios para separación de características, mejorando la modularidad en un 9%",
+          "Creación de paquete interno para comunicación con servicios externos reduciendo el desorden del código en un 20%",
+          "Construcción de servicio de comunicación unificado, facilitando integraciones externas en un 15%",
+          "Trabajo con más de 5 socios para estandarizar estructuras de cotización, reduciendo el tiempo de integración en un 15% y mejorando la precisión de datos en un 18%",
+          "Integración de autocompletado de ubicaciones de Google, mejorando la experiencia de usuario en un 7%",
+          "Desarrollo de servicio de información de automóviles que obtiene datos externos con un impulso en precisión del 9%"
+        ]
+      },
+      "bysness": {
+        "title": "Desarrollador de Software",
+        "company": "Bysness",
+        "duration": "08/2022 - 11/2022",
+        "location": "Mumbai, MH, India",
+        "responsibilities": [
+          "Construcción de panel dinámico en herramienta de migración de datos mejorando el acceso a la información en un 22%",
+          "Creación de indicador de progreso de migración, mejorando la retroalimentación visual en un 9%",
+          "Desarrollo de editor personalizado para documentos de texto, mejorando la robustez en un 12%",
+          "Implementación de función de búsqueda de transcripciones reduciendo el tiempo de recuperación de información en un 20% y aumentando la satisfacción del usuario en un 22%"
+        ]
+      },
+      "moofwd": {
+        "title": "Ingeniero de Producto",
+        "company": "Moofwd Technologies",
+        "duration": "06/2022 - 08/2022",
+        "location": "Mumbai, MH, India",
+        "responsibilities": [
+          "Adición de eventos y notificaciones en portal escolar a través de Strapi CMS, resultando en un crecimiento de ingresos del 9%",
+          "Desarrollo de complemento personalizado para 2 necesidades específicas de clientes, aumentando la adopción en un 15%"
+        ]
+      },
+      "constbase": {
+        "title": "Desarrollador de Software",
+        "company": "Constbase",
+        "duration": "12/2021 - 06/2022",
+        "location": "Mumbai, MH, India",
+        "responsibilities": [
+          "Construcción de formulario dinámico para sistema de alertas de criptomonedas utilizando React, Redux, Node.js mejorando la precisión en un 30%",
+          "Adición de gráficos dinámicos en vivo aumentando la interactividad en un 26%",
+          "Optimización de la función de creación de currículum en portal de empleo reduciendo el tiempo de generación en un 20%"
+        ]
+      },
+      "freelancer": {
+        "title": "Desarrollador Web",
+        "company": "Freelancer",
+        "duration": "01/2021 - 11/2021",
+        "location": "Mumbai, MH, India",
+        "responsibilities": [
+          "Entrega de múltiples proyectos de clientes en 4 industrias con 100% de entrega a tiempo y 95% de satisfacción",
+          "Gestión del ciclo de vida completo del proyecto, reduciendo el tiempo de desarrollo en un 18% y los problemas posteriores al lanzamiento en un 25%",
+          "Especialización en soluciones web de alto rendimiento que mejoraron la conversión en un 12% y redujeron el tiempo de carga en un 15%"
+        ]
+      }
+    },
+    "educationDetails": {
+      "degree": "Licenciatura en Ciencias",
+      "major": "Tecnología de la Información",
+      "university": "Mumbai University",
+      "duration": "06/2015 - 06/2018",
+      "location": "Mumbai, MH, IN"
+    },
+    "siteInfo": {
+      "welcome": "🚀 ¡Bienvenido a Bordo!",
+      "centralPlanet": {
+        "title": "🌍 Planeta Central",
+        "description": "¿Ese planeta brillante en el centro? ¡Sí, ese soy yo! Haz clic para sumergirte en mi historia y ver de qué se trata."
+      },
+      "experienceRings": {
+        "title": "💫 Anillos de Experiencia",
+        "description": "Orbitando a mi alrededor están los aspectos destacados de mi trayectoria profesional. Pasa el cursor sobre un anillo para echar un vistazo — ¡y haz clic para una inmersión profunda!"
+      },
+      "languageAsteroid": {
+        "title": "🪐 Asteroide de Idiomas",
+        "description": "Flotando cerca hay un práctico asteroide que te permite cambiar de idioma. ¡Elige tu favorito y disfruta del viaje en tu lengua materna!"
+      },
+      "contactRocket": {
+        "title": "🚀 Cohete de Contacto",
+        "description": "¿Listo para el despegue? ¡Pulsa el cohete para enviarme un mensaje — me encantaría saber de ti!"
+      },
+      "exploreButton": "¡Entendido, exploremos!"
+    }
+  },
+  "contact": {
+    "title": "Contáctame",
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "message": "Mensaje",
+    "namePlaceholder": "Tu nombre",
+    "emailPlaceholder": "tu.correo@ejemplo.com",
+    "messagePlaceholder": "Tu mensaje aquí...",
+    "send": "Enviar Mensaje",
+    "sending": "Enviando...",
+    "success": "¡Mensaje enviado con éxito! El formulario se cerrará en breve.",
+    "error": "No se pudo enviar el mensaje. Por favor, inténtalo de nuevo.",
+    "errors": {
+      "nameRequired": "El nombre es obligatorio",
+      "emailRequired": "El correo electrónico es obligatorio",
+      "emailInvalid": "Por favor, introduce un correo electrónico válido",
+      "messageRequired": "El mensaje es obligatorio"
+    }
+  },
+  "social": {
+    "github": "GitHub",
+    "linkedin": "LinkedIn"
+  }
+}

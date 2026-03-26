@@ -1,0 +1,159 @@
+{
+  "resume": {
+    "intro": "您好，我是桑杰夫",
+    "name": "桑杰夫·乌马尔",
+    "info": {
+      "click": "点击查看信息"
+    },
+    "designation": "软件开发人员",
+    "intro_text": "拥有4年以上经验的软件开发人员。目前正在构建服务于印度各地寺庙的生产级微服务平台（8个服务、gRPC、RabbitMQ、AWS ECS）。以Node.js和TypeScript为核心的后端开发为主，同时使用React和Next.js进行前端开发。",
+    "skills_title": "技能",
+    "languages_title": "语言",
+    "title": "简历",
+    "download": "下载简历",
+    "viewOnline": "在线查看简历",
+    "experience": "经验",
+    "education": "教育",
+    "skills": "技能",
+    "languages": "语言",
+    "lastUpdated": "最后更新",
+    "positions": {
+      "ekishwar": {
+        "title": "软件开发人员",
+        "company": "Ek Ishwar",
+        "duration": "11/2025 - 至今",
+        "location": "孟买，马哈拉施特拉邦，印度",
+        "responsibilities": [
+          "使用Prisma、Docker和PostgreSQL设计并部署了8个独立的Node.js/TypeScript微服务",
+          "实现了gRPC用于服务间通信，RabbitMQ用于包括退款处理在内的异步工作流",
+          "构建了API网关，在100多个权限和7种角色类型上执行基于权限的授权",
+          "集成了Razorpay支付生命周期，包括Webhook验证和通过RabbitMQ DLQ的退款处理",
+          "交付了面向消费者的Next.js应用和具有20多个管理模块的React管理仪表板",
+          "使用多阶段Docker构建将所有服务容器化，部署到带有Cloud Map服务发现的AWS ECS"
+        ]
+      },
+      "uvh": {
+        "title": "软件开发人员",
+        "company": "UVH Tech (Veefin)",
+        "duration": "07/2024 - 05/2025",
+        "location": "孟买，马哈拉施特拉邦，印度",
+        "responsibilities": [
+          "使用Remix、React Router v7和Tailwind CSS创建了具有加载器到组件流式传输的多语言React应用程序",
+          "使用Java Spring Boot和Node.js构建了基于DTO的API和JWT认证的后端服务",
+          "实现了具有安全会话处理和Express.js中间件的JWT认证登录系统",
+          "使用Vitest在所有关键用户流程中实现了94%的前端测试覆盖率",
+          "在由8名开发人员组成的跨职能团队中参与敏捷冲刺协作"
+        ]
+      },
+      "paktolus": {
+        "title": "软件开发人员",
+        "company": "Paktolus",
+        "duration": "12/2022 - 12/2023",
+        "location": "孟买，马哈拉施特拉邦，印度",
+        "responsibilities": [
+          "优化报价生成器中的长轮询，性能提升10%",
+          "为功能分离设计微服务基础架构，使模块化提高了9%",
+          "创建用于外部服务通信的内部包，减少了20%的代码混乱",
+          "构建统一通信服务，使外部集成简化了15%",
+          "与5个以上的合作伙伴合作标准化报价结构，集成时间减少15%，数据准确性提高18%",
+          "集成Google位置自动完成功能，使用户体验提升7%",
+          "开发获取外部数据的汽车信息服务，准确性提高9%"
+        ]
+      },
+      "bysness": {
+        "title": "软件开发人员",
+        "company": "Bysness",
+        "duration": "08/2022 - 11/2022",
+        "location": "孟买，马哈拉施特拉邦，印度",
+        "responsibilities": [
+          "在数据迁移工具中构建动态仪表板，改善信息访问22%",
+          "创建迁移进度指示器，增强视觉反馈9%",
+          "为文本文档开发自定义编辑器，提高健壮性12%",
+          "实现文字记录搜索功能，减少信息检索时间20%，提高用户满意度22%"
+        ]
+      },
+      "moofwd": {
+        "title": "产品工程师",
+        "company": "Moofwd Technologies",
+        "duration": "06/2022 - 08/2022",
+        "location": "孟买，马哈拉施特拉邦，印度",
+        "responsibilities": [
+          "通过Strapi CMS在学校门户网站中添加事件和通知，导致收入增长9%",
+          "为2个客户特定需求开发自定义插件，提高采用率15%"
+        ]
+      },
+      "constbase": {
+        "title": "软件开发人员",
+        "company": "Constbase",
+        "duration": "12/2021 - 06/2022",
+        "location": "孟买，马哈拉施特拉邦，印度",
+        "responsibilities": [
+          "使用React、Redux、Node.js为加密货币警报系统构建动态表单，提高准确性30%",
+          "添加实时动态图表，增加交互性26%",
+          "优化招聘门户网站中的简历构建功能，减少生成时间20%"
+        ]
+      },
+      "freelancer": {
+        "title": "网站开发人员",
+        "company": "自由职业者",
+        "duration": "01/2021 - 11/2021",
+        "location": "孟买，马哈拉施特拉邦，印度",
+        "responsibilities": [
+          "为跨越4个行业的多个客户项目提供服务，100%按时交付，95%的满意度",
+          "管理完整项目生命周期，减少18%的开发时间和25%的上线后问题",
+          "专注于高性能网络解决方案，提高转化率12%并缩短加载时间15%"
+        ]
+      }
+    },
+    "educationDetails": {
+      "degree": "理学学士",
+      "major": "信息技术",
+      "university": "Mumbai University",
+      "duration": "06/2015 - 06/2018",
+      "location": "Mumbai, MH, IN"
+    },
+    "siteInfo": {
+      "welcome": "🚀 欢迎登船！",
+      "centralPlanet": {
+        "title": "🌍 中央行星",
+        "description": "中心那颗明亮发光的行星？没错，那就是我！点击它，深入了解我的故事，看看我是怎样的人。"
+      },
+      "experienceRings": {
+        "title": "💫 经验环",
+        "description": "围绕着我旋转的是我职业生涯的亮点。将鼠标悬停在环上可以偷瞄一下 — 点击它可以深入了解！"
+      },
+      "languageAsteroid": {
+        "title": "🪐 语言小行星",
+        "description": "附近漂浮着一颗方便的小行星，可以让你切换语言。选择你喜欢的语言，用你的母语享受这段旅程！"
+      },
+      "contactRocket": {
+        "title": "🚀 联系火箭",
+        "description": "准备发射了吗？点击火箭给我发送一条消息 — 我很想听到你的声音！"
+      },
+      "exploreButton": "明白了，让我们开始探索吧！"
+    }
+  },
+  "contact": {
+    "title": "联系我",
+    "name": "姓名",
+    "email": "电子邮件",
+    "message": "留言",
+    "namePlaceholder": "您的姓名",
+    "emailPlaceholder": "your.email@example.com",
+    "messagePlaceholder": "在此输入您的留言...",
+    "send": "发送留言",
+    "sending": "发送中...",
+    "success": "留言发送成功！表单将很快关闭。",
+    "error": "留言发送失败。请重试。",
+    "errors": {
+      "nameRequired": "需要提供姓名",
+      "emailRequired": "需要提供电子邮件",
+      "emailInvalid": "请输入有效的电子邮件",
+      "messageRequired": "需要提供留言"
+    }
+  },
+  "social": {
+    "github": "GitHub",
+    "linkedin": "领英"
+  }
+}
